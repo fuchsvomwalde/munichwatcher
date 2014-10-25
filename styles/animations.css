@@ -27,7 +27,8 @@ header .btn-bar {
 body.revealed header {
     transition: background .3s linear 1s, top 1s;
     background: rgba(255, 255, 255, 0);
-    width: 100%;
+    width: 450px;
+    left: calc(50% - 225px);
     position: fixed;
     top: 40px;
     z-index: 5;
