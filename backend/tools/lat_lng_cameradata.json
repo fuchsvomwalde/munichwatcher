@@ -4,8 +4,8 @@
         "audio": "false",
         "category": "other",
         "count": 1,
-        "lat": 48.13003795,
-        "lng": 11.5828897353226,
+        "lat": 48.13114789999999,
+        "lng": 11.5846167,
         "objectRecognition": "false",
         "owner": "Turm d. Dt. Museums, WWA M",
         "realtime": "false"
@@ -15,8 +15,8 @@
         "audio": "false",
         "category": "publicSecurity, propertySec, other",
         "count": 31,
-        "lat": 48.3946025,
-        "lng": 10.0018036,
+        "lat": 49.64099,
+        "lng": 8.63966,
         "objectRecognition": "false",
         "owner": "Bayerische Staatsbibliothek, Bayerische Staatsbibliothek",
         "realtime": "true"
@@ -26,8 +26,8 @@
         "audio": "false",
         "category": "other",
         "count": 4,
-        "lat": 48.0719181,
-        "lng": 11.619712,
+        "lat": 48.0721297,
+        "lng": 11.6175498,
         "objectRecognition": "false",
         "owner": "Sportpark Unterhaching, PP M\u00fcnchen",
         "realtime": "true"
@@ -37,8 +37,8 @@
         "audio": "false",
         "category": "other",
         "count": 4,
-        "lat": 49.5014334,
-        "lng": 11.0172271,
+        "lat": 49.49172,
+        "lng": 10.88045,
         "objectRecognition": "false",
         "owner": "Audi Dome, PP M\u00fcnchen",
         "realtime": "true"
@@ -48,8 +48,8 @@
         "audio": "false",
         "category": "other",
         "count": 8,
-        "lat": 48.1107206,
-        "lng": 11.5755169,
+        "lat": 48.1105156,
+        "lng": 11.5743508,
         "objectRecognition": "false",
         "owner": "Stadion Gr\u00fcnwalder Stra\u00dfe, PP M\u00fcnchen",
         "realtime": "true"
@@ -59,8 +59,8 @@
         "audio": "false",
         "category": "other",
         "count": 8,
-        "lat": 48.1831046,
-        "lng": 11.6329559,
+        "lat": 48.24731999999999,
+        "lng": 11.64753,
         "objectRecognition": "false",
         "owner": "Entsorgungspark Freimann, Heizkraftwerk M-Nord, Abfallwirtschaftsbetrieb M\u00fcnchen",
         "realtime": "true"
@@ -70,8 +70,8 @@
         "audio": "false",
         "category": "other",
         "count": 9,
-        "lat": 48.1380607,
-        "lng": 11.578197,
+        "lat": 48.1383691,
+        "lng": 11.5779027,
         "objectRecognition": "true",
         "owner": "Alter Hof, nichtstaatliche Museen in Bayern",
         "realtime": "true"
@@ -81,8 +81,8 @@
         "audio": "false",
         "category": "other",
         "count": 12,
-        "lat": 48.1717429,
-        "lng": 11.5458738,
+        "lat": 48.172374,
+        "lng": 11.5445243,
         "objectRecognition": "false",
         "owner": "Olympiapark Stadion, PP M\u00fcnchen",
         "realtime": "true"
@@ -92,10 +92,21 @@
         "audio": "false",
         "category": "other",
         "count": 80,
-        "lat": 48.21875735,
-        "lng": 11.6246933758953,
+        "lat": 48.2186,
+        "lng": 11.62362,
         "objectRecognition": "false",
         "owner": "Allianz Arena, PP M\u00fcnchen",
+        "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "trafficpropertySec, other",
+        "count": 1266,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "\u00d6PNV-Infrastruktur, Stadtwerke M\u00fcnchen GmbH",
         "realtime": "true"
     },
     {
@@ -103,8 +114,8 @@
         "audio": "false",
         "category": "publicSecurity, propertySec",
         "count": 77,
-        "lat": 48.7693763,
-        "lng": 11.4821141,
+        "lat": 48.13953,
+        "lng": 11.55918,
         "objectRecognition": "false",
         "owner": "Hauptbahnhof, DB Station & Service AG",
         "realtime": "false"
@@ -114,8 +125,8 @@
         "audio": "true",
         "category": "publicSecurity, propertySec",
         "count": 11,
-        "lat": 53.8749197,
-        "lng": 10.6750206,
+        "lat": 50.72143370000001,
+        "lng": 11.3437153,
         "objectRecognition": "false",
         "owner": "LSG M\u00fcnchen Gerichtsgeb\u00e4ude Ludwigstra\u00dfe, BayLSG",
         "realtime": "true"
@@ -123,21 +134,32 @@
     {
         "adress": "Sophienstra\u00dfe 7 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 50.93179715,
-        "lng": 11.588402175,
+        "lat": 51.40711,
+        "lng": 11.3794,
         "objectRecognition": "true",
         "owner": "Parkcaf\u00e9, P\u00e4chter",
         "realtime": "true"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 1,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Fitnesscenter, Gesch\u00e4ftsleitung",
+        "realtime": "false"
+    },
+    {
         "adress": "Herzogspitalstra\u00dfe 12",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1377958,
-        "lng": 11.5679354,
+        "lat": 48.1374791,
+        "lng": 11.5688932,
         "objectRecognition": "false",
         "owner": "Justiz M\u00fcnchen, Herzogspitalstra\u00dfe 12, StMJV",
         "realtime": "false"
@@ -145,10 +167,10 @@
     {
         "adress": "Galeriestra\u00dfe 4a",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1436723,
-        "lng": 11.5805408,
+        "lat": 48.1436144,
+        "lng": 11.5811228,
         "objectRecognition": "false",
         "owner": "Galeristra\u00dfe 4a, Deutsches Theamtermuseum",
         "realtime": "false"
@@ -156,21 +178,65 @@
     {
         "adress": "Residenzstra\u00dfe 1",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 52.5738765,
-        "lng": 13.3586786,
+        "lat": 52.57400999999999,
+        "lng": 13.35882,
         "objectRecognition": "false",
         "owner": "Residenzstra\u00dfe 1, Staatliche M\u00fcnzsammlung",
         "realtime": "false"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Gastst\u00e4tte, Gesch\u00e4ftsleitung",
+        "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 1,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Lebensmittelhandel, Gesch\u00e4ftsleitung",
+        "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 1,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Gastst\u00e4tte, Gesch\u00e4ftsleitung",
+        "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 1,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Technikmarkt, Gesch\u00e4ftsleitung",
+        "realtime": "true"
+    },
+    {
         "adress": "Arnulfstra\u00dfe 1",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1410517,
-        "lng": 11.5602888,
+        "lat": 48.1411869,
+        "lng": 11.5597421,
         "objectRecognition": "false",
         "owner": "Arnulfstra\u00dfe 1, PP M\u00fcnchen",
         "realtime": "true"
@@ -178,10 +244,10 @@
     {
         "adress": "Bayerstra\u00dfe 35 - 37",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1391873,
-        "lng": 11.5654125,
+        "lat": 48.139,
+        "lng": 11.55932,
         "objectRecognition": "false",
         "owner": "Bayerstra\u00dfe 35 - 37, PP M\u00fcnchen",
         "realtime": "true"
@@ -189,10 +255,10 @@
     {
         "adress": "Rechnerstra\u00dfe 11 z",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1056331,
-        "lng": 11.7434228,
+        "lat": 48.1067291,
+        "lng": 11.7406511,
         "objectRecognition": "false",
         "owner": "Rechnerstra\u00dfe 11 z, PP M\u00fcnchen",
         "realtime": "true"
@@ -200,10 +266,10 @@
     {
         "adress": "Romanstra\u00dfe 13",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1565419,
-        "lng": 11.5246772,
+        "lat": 43.4808385,
+        "lng": 5.462672899999999,
         "objectRecognition": "false",
         "owner": "Romanstra\u00dfe 13, PP M\u00fcnchen",
         "realtime": "true"
@@ -211,10 +277,10 @@
     {
         "adress": "Winzererstr 9",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1556101,
-        "lng": 11.5596892,
+        "lat": 48.15622,
+        "lng": 11.55901,
         "objectRecognition": "false",
         "owner": "Eckbau Nord Winzererstr. 9, StMAS",
         "realtime": "true"
@@ -222,10 +288,10 @@
     {
         "adress": "Winzererstr 9",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1556101,
-        "lng": 11.5596892,
+        "lat": 48.15622,
+        "lng": 11.55901,
         "objectRecognition": "false",
         "owner": "Eckbau S\u00fcd Winzererstr. 9, StMAS",
         "realtime": "true"
@@ -233,10 +299,10 @@
     {
         "adress": "He\u00dfstr. 104",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1527183,
-        "lng": 11.5631229,
+        "lat": 48.1545,
+        "lng": 11.55776,
         "objectRecognition": "false",
         "owner": "He\u00dfstr. 104, StMAS",
         "realtime": "true"
@@ -244,10 +310,10 @@
     {
         "adress": "Arnulfstr. 16-18",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 49.2200539,
-        "lng": 7.0148379,
+        "lat": 48.14192269999999,
+        "lng": 11.5581821,
         "objectRecognition": "false",
         "owner": "Justiz M\u00fcnchen, Arnulfstra\u00dfe 16-18, StMJV",
         "realtime": "true"
@@ -255,10 +321,10 @@
     {
         "adress": "Seidelstra\u00dfe 8",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 52.3905123,
-        "lng": 9.7494877,
+        "lat": 49.9745636,
+        "lng": 9.1247051,
         "objectRecognition": "false",
         "owner": "Justiz M\u00fcnchen, Seidelstra\u00dfe 8, StMJV",
         "realtime": "true"
@@ -266,10 +332,10 @@
     {
         "adress": "He\u00dfstra\u00dfe 128 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1570325,
-        "lng": 11.5549384,
+        "lat": 48.1570885,
+        "lng": 11.5539411,
         "objectRecognition": "false",
         "owner": "Dienstgeb\u00e4ude, LfU",
         "realtime": "true"
@@ -277,10 +343,10 @@
     {
         "adress": "Marchioninistra\u00dfe 15",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1090781,
-        "lng": 11.4735768,
+        "lat": 48.11102,
+        "lng": 11.47031,
         "objectRecognition": "false",
         "owner": "Klinikum Gro\u00dfhadern Pforte Haupteingang, Klinikum der Universit\u00e4t M\u00fcnchen",
         "realtime": "true"
@@ -288,10 +354,10 @@
     {
         "adress": "Maistra\u00dfe 11 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1304893,
-        "lng": 11.5629631,
+        "lat": 52.0851765,
+        "lng": 10.4692152,
         "objectRecognition": "false",
         "owner": "Innenstadt Frauenklinik, Klinikum der Universit\u00e4t M\u00fcnchen",
         "realtime": "true"
@@ -299,10 +365,10 @@
     {
         "adress": "Lindwurmstra\u00dfe 2 a",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1266991,
-        "lng": 11.5527946,
+        "lat": 48.13082,
+        "lng": 11.56047,
         "objectRecognition": "false",
         "owner": "Innenstadt Mund Kiefer Gesichtschirurgie, Klinikum der Universit\u00e4t M\u00fcnchen",
         "realtime": "true"
@@ -310,10 +376,10 @@
     {
         "adress": "Lindwurmstr. 4 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1307325,
-        "lng": 11.5589423,
+        "lat": 48.1302545,
+        "lng": 11.5593679,
         "objectRecognition": "false",
         "owner": "Innenstadt Kinderklinik, Klinikum der Universit\u00e4t M\u00fcnchen",
         "realtime": "true"
@@ -321,10 +387,10 @@
     {
         "adress": "Ziemssenstra\u00dfe 1",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1322485,
-        "lng": 11.5618175,
+        "lat": 48.13244539999999,
+        "lng": 11.5624686,
         "objectRecognition": "false",
         "owner": "Innenstadt Poliklinik, Klinikum der Universit\u00e4t M\u00fcnchen",
         "realtime": "true"
@@ -332,10 +398,10 @@
     {
         "adress": "Frankfurter Ring 179",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1877512,
-        "lng": 11.5960016,
+        "lat": 48.1876502,
+        "lng": 11.5959309,
         "objectRecognition": "false",
         "owner": "HKW Freimann, ",
         "realtime": "true"
@@ -343,10 +409,10 @@
     {
         "adress": "Ismaninger Stra\u00dfe 95",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 48.1471886,
-        "lng": 11.6041313,
+        "lat": 48.1475,
+        "lng": 11.6037,
         "objectRecognition": "false",
         "owner": "Finanzgericht M\u00fcnchen, FG M\u00fcnchen",
         "realtime": "true"
@@ -354,10 +420,10 @@
     {
         "adress": "Sophienstra\u00dfe 6 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 50.93171095,
-        "lng": 11.58870255,
+        "lat": 51.40658,
+        "lng": 11.37995,
         "objectRecognition": "false",
         "owner": "BayLfSt, BayLfSt",
         "realtime": "true"
@@ -365,10 +431,10 @@
     {
         "adress": "Sophienstra\u00dfe 6 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 50.93171095,
-        "lng": 11.58870255,
+        "lat": 51.40658,
+        "lng": 11.37995,
         "objectRecognition": "false",
         "owner": "BayLfSt, BayLfSt",
         "realtime": "true"
@@ -376,54 +442,120 @@
     {
         "adress": "Sophienstra\u00dfe 6 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 1,
-        "lat": 50.93171095,
-        "lng": 11.58870255,
+        "lat": 51.40658,
+        "lng": 11.37995,
         "objectRecognition": "false",
         "owner": "BayLfSt, BayLfSt",
         "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Taxizentrale, Gesch\u00e4ftsleitung",
+        "realtime": "false"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "B\u00fcror\u00e4ume, Gesch\u00e4ftsleitung",
+        "realtime": "false"
     },
     {
         "adress": "Infanteriestra\u00dfe 9",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 2,
-        "lat": 48.1577607,
-        "lng": 11.5549706,
+        "lat": 49.445559,
+        "lng": 11.8436155,
         "objectRecognition": "false",
         "owner": "Justiz M\u00fcnchen, Infanteriestra\u00dfe 9, StMJV",
         "realtime": "false"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Gastst\u00e4tte, Gesch\u00e4ftsleitung",
+        "realtime": "true"
+    },
+    {
         "adress": "Orleansstr. 34",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 2,
-        "lat": 52.1574183,
-        "lng": 9.9656499,
+        "lat": 43.4678586,
+        "lng": 3.1772267,
         "objectRecognition": "false",
         "owner": "Orleansstr. 34, BLKA",
         "realtime": "true"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Dienstgeb\u00e4ude, Polizei",
+        "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Handelsunternehmen, Vorstand",
+        "realtime": "true"
+    },
+    {
         "adress": "Am Neudeck",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 2,
-        "lat": 48.1238569,
-        "lng": 11.5839856,
+        "lat": 48.405807,
+        "lng": 12.7567996,
         "objectRecognition": "false",
         "owner": "Am Neudeck, PP M\u00fcnchen",
         "realtime": "true"
     },
     {
+        "adress": "Festwiesnwache",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Festwiesnwache, PP M\u00fcnchen",
+        "realtime": "true"
+    },
+    {
         "adress": "Freiligrathstra\u00dfe 81",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 2,
-        "lat": 52.3938938,
-        "lng": 13.1127364,
+        "lat": 53.5392009,
+        "lng": 8.1332644,
         "objectRecognition": "false",
         "owner": "Freiligrathstra\u00dfe 81, PP M\u00fcnchen",
         "realtime": "true"
@@ -431,10 +563,10 @@
     {
         "adress": "Hofkurat-Diehl-Stra\u00dfe 9",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 2,
-        "lat": 48.2524264,
-        "lng": 11.5613544,
+        "lat": 48.25244,
+        "lng": 11.56128,
         "objectRecognition": "false",
         "owner": "Hofkurat-Diehl-Stra\u00dfe 9, PP M\u00fcnchen",
         "realtime": "true"
@@ -442,10 +574,10 @@
     {
         "adress": "Rapotostra\u00dfe 1",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 2,
-        "lat": 48.1430361,
-        "lng": 11.4989111073547,
+        "lat": 48.1430255,
+        "lng": 11.4988221,
         "objectRecognition": "false",
         "owner": "Rapotostra\u00dfe 1, PP M\u00fcnchen",
         "realtime": "true"
@@ -453,21 +585,32 @@
     {
         "adress": "Winzererstra\u00dfe 54",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 2,
-        "lat": 48.158132,
-        "lng": 11.5609875,
+        "lat": 48.15812409999999,
+        "lng": 11.56103,
         "objectRecognition": "false",
         "owner": "Winzererstra\u00dfe 54, PP M\u00fcnchen",
         "realtime": "true"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Dienstgeb\u00e4ude VPI FFB, Polizei",
+        "realtime": "true"
+    },
+    {
         "adress": "Katharina-von-Bora-Stra\u00dfe 10",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 2,
-        "lat": 50.80724515,
-        "lng": 12.9481919560381,
+        "lat": 48.14435,
+        "lng": 11.56634,
         "objectRecognition": "false",
         "owner": "Katharina-von-Bora-Stra\u00dfe 10, Zentralinstitut f\u00fcr Kunstgeschichte",
         "realtime": "true"
@@ -475,10 +618,10 @@
     {
         "adress": "Marchioninistra\u00dfe 15",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 2,
-        "lat": 48.1090781,
-        "lng": 11.4735768,
+        "lat": 48.11102,
+        "lng": 11.47031,
         "objectRecognition": "false",
         "owner": "Gro\u00dfhadern Nordpforte, Klinikum der Universit\u00e4t M\u00fcnchen",
         "realtime": "true"
@@ -486,10 +629,10 @@
     {
         "adress": "Ziemssenstra\u00dfe 1",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 2,
-        "lat": 48.1322485,
-        "lng": 11.5618175,
+        "lat": 48.13244539999999,
+        "lng": 11.5624686,
         "objectRecognition": "false",
         "owner": "Innenstadt Med. Klinik, Klinikum der Universit\u00e4t M\u00fcnchen",
         "realtime": "true"
@@ -497,10 +640,10 @@
     {
         "adress": "Zamdorfer Stra\u00dfe 92",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 2,
-        "lat": 48.138555,
-        "lng": 11.6436969,
+        "lat": 48.1387066,
+        "lng": 11.643839,
         "objectRecognition": "false",
         "owner": "Hauptm\u00fcnzamt, StMF",
         "realtime": "true"
@@ -508,10 +651,10 @@
     {
         "adress": "Prinz-Ludwig-Stra\u00dfe 1 \u2013 3",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 2,
-        "lat": 49.0158615,
-        "lng": 12.1195588,
+        "lat": 50.00326,
+        "lng": 12.30524,
         "objectRecognition": "false",
         "owner": "FA M\u00fcnchen, BayLfSt",
         "realtime": "true"
@@ -519,10 +662,10 @@
     {
         "adress": "Ludwigstra\u00dfe 28",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.98262735,
-        "lng": 8.20802059162528,
+        "lat": 49.3285315,
+        "lng": 11.0267684,
         "objectRecognition": "false",
         "owner": "Ludwigstra\u00dfe 28, Ludwig-Maximilians-Universit\u00e4t",
         "realtime": "false"
@@ -530,10 +673,10 @@
     {
         "adress": "T\u00fcrkenstra\u00dfe 4 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.2169233,
-        "lng": 16.3616876,
+        "lat": 47.9150735,
+        "lng": 16.6941994,
         "objectRecognition": "false",
         "owner": "Palais Pinakothek, Staatsgem\u00e4ldesammlungen",
         "realtime": "false"
@@ -541,10 +684,10 @@
     {
         "adress": "Karlstra\u00dfe 9 - 11 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 49.231561,
-        "lng": 7.0000145,
+        "lat": 29.9661932,
+        "lng": -92.09279029999999,
         "objectRecognition": "false",
         "owner": "FA M\u00fcnchen, BayLfSt",
         "realtime": "false"
@@ -552,10 +695,10 @@
     {
         "adress": "Max-Planck-Str. 1",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 53.8938182,
-        "lng": 10.7117504,
+        "lat": 50.3546531,
+        "lng": 11.2191061,
         "objectRecognition": "false",
         "owner": "Maximilianeum, Bayer. Landtag",
         "realtime": "true"
@@ -563,21 +706,32 @@
     {
         "adress": "Bad-Schachener Stra\u00dfe 4",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.1204117,
-        "lng": 11.6145311588343,
+        "lat": 48.1204,
+        "lng": 11.61456,
         "objectRecognition": "false",
         "owner": "Bad-Schachener Stra\u00dfe 4, PP M\u00fcnchen",
         "realtime": "true"
     },
     {
+        "adress": "Institutsstra\u00dfe 1",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 3,
+        "lat": 47.8323743,
+        "lng": 16.1673291,
+        "objectRecognition": "false",
+        "owner": "Institutsstra\u00dfe 1, PP M\u00fcnchen",
+        "realtime": "true"
+    },
+    {
         "adress": "Leuchtenbergstra\u00dfe 1",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.2287298,
-        "lng": 11.6711267,
+        "lat": 49.6071937,
+        "lng": 9.7454284,
         "objectRecognition": "false",
         "owner": "Leuchtenbergstra\u00dfe 1, PP M\u00fcnchen",
         "realtime": "true"
@@ -585,10 +739,10 @@
     {
         "adress": "Trautenwolfstra\u00dfe 4",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.1577392,
-        "lng": 11.5858965031543,
+        "lat": 48.15773,
+        "lng": 11.58582,
         "objectRecognition": "false",
         "owner": "Trautenwolfstra\u00dfe 4, PP M\u00fcnchen",
         "realtime": "true"
@@ -596,10 +750,10 @@
     {
         "adress": "Adenauerring 31",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.1040233,
-        "lng": 11.6429732,
+        "lat": 51.19681000000001,
+        "lng": 6.66732,
         "objectRecognition": "false",
         "owner": "Adenauerring 31, PP M\u00fcnchen",
         "realtime": "true"
@@ -607,10 +761,10 @@
     {
         "adress": "Moosacher Stra\u00dfe 77",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.1857215,
-        "lng": 11.5533624,
+        "lat": 48.18545030000001,
+        "lng": 11.5533004,
         "objectRecognition": "false",
         "owner": "Moosacher Stra\u00dfe 77, PP M\u00fcnchen",
         "realtime": "true"
@@ -618,10 +772,10 @@
     {
         "adress": "Ottobrunner Stra\u00dfe 7",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.1124996,
-        "lng": 11.6175699,
+        "lat": 48.11237999999999,
+        "lng": 11.61761,
         "objectRecognition": "false",
         "owner": "Ottobrunner Stra\u00dfe 7, PP M\u00fcnchen",
         "realtime": "true"
@@ -629,10 +783,10 @@
     {
         "adress": "Schellingstr. 155",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.1551219,
-        "lng": 11.5581753,
+        "lat": 48.154545,
+        "lng": 11.558041,
         "objectRecognition": "false",
         "owner": "Schellingstr. 155, StMAS",
         "realtime": "true"
@@ -640,10 +794,10 @@
     {
         "adress": "Heidemannstr. 50",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.2011824,
-        "lng": 11.5929838339937,
+        "lat": 48.20146099999999,
+        "lng": 11.5933886,
         "objectRecognition": "false",
         "owner": "Aufnahmeeinrichtung f\u00fcr Asylbewerber, Regierung von Oberbayern",
         "realtime": "true"
@@ -651,10 +805,10 @@
     {
         "adress": "Infanteriestra\u00dfe 5",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.15797,
-        "lng": 11.556725,
+        "lat": 48.15796,
+        "lng": 11.55671,
         "objectRecognition": "false",
         "owner": "Justiz M\u00fcnchen, Infanteriestra\u00dfe 5, StMJV",
         "realtime": "true"
@@ -662,10 +816,10 @@
     {
         "adress": "Nu\u00dfbaumstra\u00dfe 20",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.1340889,
-        "lng": 11.5621699,
+        "lat": 51.14187,
+        "lng": 7.01199,
         "objectRecognition": "false",
         "owner": "Innenstadt Chirurgie, Klinikum der Universit\u00e4t M\u00fcnchen",
         "realtime": "true"
@@ -673,10 +827,10 @@
     {
         "adress": "Rosenheimer Stra\u00dfe 1",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.1291572,
-        "lng": 11.593027,
+        "lat": 48.5106097,
+        "lng": 12.1565141,
         "objectRecognition": "false",
         "owner": "Volksbad, SWM GmbH, B\u00e4der",
         "realtime": "true"
@@ -684,10 +838,10 @@
     {
         "adress": "Coubertinplatz ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.17426855,
-        "lng": 11.5489881125689,
+        "lat": 52.5123026,
+        "lng": 13.2402729,
         "objectRecognition": "false",
         "owner": "Olympia-Schwimmhalle, SWM GmbH, B\u00e4der",
         "realtime": "true"
@@ -695,21 +849,32 @@
     {
         "adress": "Georg-Brauchle-Ring 29 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 3,
-        "lat": 48.1760645,
-        "lng": 11.5349301,
+        "lat": 48.1760668,
+        "lng": 11.5349497,
         "objectRecognition": "false",
         "owner": "AWM Betriebsgel\u00e4nde, Abfallwirtschaftsbetrieb M\u00fcnchen",
         "realtime": "true"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 4,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Technikhandel, Gesch\u00e4ftsleitung",
+        "realtime": "true"
+    },
+    {
         "adress": "Johann-Fichte-Stra\u00dfe 5",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 4,
-        "lat": 48.1695473,
-        "lng": 11.5881073,
+        "lat": 48.1695435,
+        "lng": 11.5878273,
         "objectRecognition": "false",
         "owner": "Johann-Fichte-Stra\u00dfe 5, PP M\u00fcnchen",
         "realtime": "true"
@@ -717,10 +882,10 @@
     {
         "adress": "Beethovenstra\u00dfe 5",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 4,
-        "lat": 51.4441899,
-        "lng": 7.0184792,
+        "lat": 39.06854999999999,
+        "lng": -76.945724,
         "objectRecognition": "false",
         "owner": "Beethovenstra\u00dfe 5, PP M\u00fcnchen",
         "realtime": "true"
@@ -728,10 +893,10 @@
     {
         "adress": "T\u00f6lzer Stra\u00dfe 34",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 4,
-        "lat": 47.7855495,
-        "lng": 11.8208137,
+        "lat": 47.77263,
+        "lng": 11.6645,
         "objectRecognition": "false",
         "owner": "T\u00f6lzer Stra\u00dfe 34, PP M\u00fcnchen",
         "realtime": "true"
@@ -739,10 +904,10 @@
     {
         "adress": "Winzererstr 9",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 4,
-        "lat": 48.1556101,
-        "lng": 11.5596892,
+        "lat": 48.15622,
+        "lng": 11.55901,
         "objectRecognition": "false",
         "owner": "Hauptgeb\u00e4ude Winzererstr. 9, StMAS",
         "realtime": "true"
@@ -750,10 +915,10 @@
     {
         "adress": "Denisstra\u00dfe 3",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 4,
-        "lat": 48.1449779,
-        "lng": 11.5557376244686,
+        "lat": 48.1449304,
+        "lng": 11.5560998,
         "objectRecognition": "false",
         "owner": "Justiz M\u00fcnchen (LG II, OLG), Denisstra\u00dfe 3, StMJV",
         "realtime": "true"
@@ -761,10 +926,10 @@
     {
         "adress": "Schlei\u00dfheimerstra\u00dfe 139",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 4,
-        "lat": 48.1609327,
-        "lng": 11.5633407,
+        "lat": 48.1640045,
+        "lng": 11.5642189,
         "objectRecognition": "false",
         "owner": "OLG,Schlei\u00dfheimerstra\u00dfe 139, StMJV",
         "realtime": "true"
@@ -772,10 +937,10 @@
     {
         "adress": "Postillonstra\u00dfe 17",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 4,
-        "lat": 48.16670825,
-        "lng": 11.5304048979114,
+        "lat": 46.9517177,
+        "lng": 1.9997912,
         "objectRecognition": "false",
         "owner": "Dantebad, SWM GmbH, B\u00e4der",
         "realtime": "true"
@@ -783,10 +948,10 @@
     {
         "adress": "Lothstra\u00dfe 34",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 5,
-        "lat": 48.1530911,
-        "lng": 11.5522266371215,
+        "lat": 48.1551143,
+        "lng": 11.5536475,
         "objectRecognition": "false",
         "owner": "Lothstra\u00dfe 34, Hochsch. f\u00fcr angewandte Wissenschaften",
         "realtime": "false"
@@ -794,10 +959,10 @@
     {
         "adress": "Werner-Eckert-Stra\u00dfe 12",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 5,
-        "lat": 48.1341243,
-        "lng": 11.6872096,
+        "lat": 48.1343298,
+        "lng": 11.6878735,
         "objectRecognition": "false",
         "owner": "Werner-Eckert-Stra\u00dfe 12, PP M\u00fcnchen",
         "realtime": "true"
@@ -805,10 +970,10 @@
     {
         "adress": "Treffauerstra\u00dfe 56",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 5,
-        "lat": 48.1178303,
-        "lng": 11.5177174,
+        "lat": 48.11789,
+        "lng": 11.51779,
         "objectRecognition": "false",
         "owner": "Treffauerstra\u00dfe 56, PP M\u00fcnchen",
         "realtime": "true"
@@ -816,10 +981,10 @@
     {
         "adress": "Franz-Josef-Strau\u00df-Ring 4 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 6,
-        "lat": 48.14302495,
-        "lng": 11.5849427615101,
+        "lat": 48.1436077,
+        "lng": 11.5849194,
         "objectRecognition": "false",
         "owner": "Oberste Baubeh\u00f6rde, Oberste Baubeh\u00f6rde",
         "realtime": "true"
@@ -827,10 +992,10 @@
     {
         "adress": "Tegernseer Landstra\u00dfe 210",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 6,
-        "lat": 48.109084,
-        "lng": 11.579013,
+        "lat": 48.10138569999999,
+        "lng": 11.5839604,
         "objectRecognition": "false",
         "owner": "Tegernseer Landstra\u00dfe 210, PP M\u00fcnchen",
         "realtime": "true"
@@ -838,10 +1003,10 @@
     {
         "adress": "Schlei\u00dfheimer Stra\u00dfe 142",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 6,
-        "lat": 48.1609327,
-        "lng": 11.5633407,
+        "lat": 48.16032,
+        "lng": 11.56391,
         "objectRecognition": "false",
         "owner": "Nordbad, SWM GmbH, B\u00e4der",
         "realtime": "true"
@@ -849,10 +1014,10 @@
     {
         "adress": "Heinrich-Wieland-Stra\u00dfe 24",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 6,
-        "lat": 48.11668035,
-        "lng": 11.6364829651085,
+        "lat": 0,
+        "lng": 0,
         "objectRecognition": "false",
         "owner": "Michaelibad, SWM GmbH, B\u00e4der",
         "realtime": "true"
@@ -860,10 +1025,10 @@
     {
         "adress": "Emmy-Noether-Stra\u00dfe 2",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 6,
-        "lat": 53.83454255,
-        "lng": 10.6916459565871,
+        "lat": 48.01214,
+        "lng": 7.836074,
         "objectRecognition": "false",
         "owner": "Stadtwerkszentrale, SWM GmbH",
         "realtime": "true"
@@ -871,10 +1036,10 @@
     {
         "adress": "Mariahilfplatz 17 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 6,
-        "lat": 48.1241582,
-        "lng": 11.5833208,
+        "lat": 48.12417000000001,
+        "lng": 11.58273,
         "objectRecognition": "false",
         "owner": "Dienstgeb\u00e4ude, Landratsamt M\u00fcnchen",
         "realtime": "true"
@@ -882,10 +1047,10 @@
     {
         "adress": "Prinzregentenplatz 16",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 7,
-        "lat": 48.1387597,
-        "lng": 11.6073629,
+        "lat": 48.1388,
+        "lng": 11.60722,
         "objectRecognition": "false",
         "owner": "Prinzregentenplatz 16, PP M\u00fcnchen",
         "realtime": "true"
@@ -893,10 +1058,10 @@
     {
         "adress": "Weinbergerstra\u00dfe 11",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 7,
-        "lat": 48.1407296,
-        "lng": 11.474713780945,
+        "lat": 49.2440824,
+        "lng": 10.4121728,
         "objectRecognition": "false",
         "owner": "Westbad, SWM GmbH, B\u00e4der",
         "realtime": "true"
@@ -904,10 +1069,10 @@
     {
         "adress": "M\u00fcnchner Str. 22 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 7,
-        "lat": 50.8339024,
-        "lng": 12.9532759517848,
+        "lat": 47.5671392,
+        "lng": 11.142135,
         "objectRecognition": "false",
         "owner": "Heizkraftwerk Nord, ",
         "realtime": "true"
@@ -915,10 +1080,10 @@
     {
         "adress": "Am Stadtpark 20",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 8,
-        "lat": 50.80611,
-        "lng": 12.8985111754928,
+        "lat": 48.20535839999999,
+        "lng": 16.3830903,
         "objectRecognition": "false",
         "owner": "Am Stadtpark 20, Hochsch. f\u00fcr angewandte Wissenschaften",
         "realtime": "false"
@@ -926,10 +1091,10 @@
     {
         "adress": "Prielmayerstr. 5",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 8,
-        "lat": 48.304689,
-        "lng": 11.9110443373898,
+        "lat": 48.30474,
+        "lng": 11.91118,
         "objectRecognition": "false",
         "owner": "Justiz M\u00fcnchen, Prielmayerstra\u00dfe 5, StMJV",
         "realtime": "true"
@@ -937,10 +1102,10 @@
     {
         "adress": "Alter Hof 2",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 8,
-        "lat": 48.1381055,
-        "lng": 11.5778437,
+        "lat": 52.50624000000001,
+        "lng": 11.13804,
         "objectRecognition": "false",
         "owner": "Alter Hof 2, Bayerisches Landesamt f\u00fcr Denkmalpflege",
         "realtime": "true"
@@ -948,10 +1113,10 @@
     {
         "adress": "Maria-Theresia-Stra\u00dfe 23",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 8,
-        "lat": 48.14358565,
-        "lng": 11.598908382643,
+        "lat": 48.14364,
+        "lng": 11.59895,
         "objectRecognition": "false",
         "owner": "Bibliothek, Technische Universit\u00e4t M\u00fcnchen",
         "realtime": "true"
@@ -959,10 +1124,10 @@
     {
         "adress": "Gollierstra\u00dfe 70 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 9,
-        "lat": 48.1363845,
-        "lng": 11.5336101,
+        "lat": 48.1364548,
+        "lng": 11.5334747,
         "objectRecognition": "false",
         "owner": "GH Laim, MGH",
         "realtime": "false"
@@ -970,10 +1135,10 @@
     {
         "adress": "Prinzregentenstra\u00dfe 80",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 9,
-        "lat": 48.1398027,
-        "lng": 11.6035914,
+        "lat": 47.8620498,
+        "lng": 12.1101677,
         "objectRecognition": "false",
         "owner": "Prinzregentenstadion, SWM GmbH, B\u00e4der",
         "realtime": "true"
@@ -981,10 +1146,10 @@
     {
         "adress": "Landshuter Allee 38",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 10,
-        "lat": 48.1496066,
-        "lng": 11.5372444,
+        "lat": 48.1493881,
+        "lng": 11.5371841,
         "objectRecognition": "false",
         "owner": "Landshuter Allee 38, PP M\u00fcnchen",
         "realtime": "true"
@@ -992,10 +1157,10 @@
     {
         "adress": "Ludwigstr. 2",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 10,
-        "lat": 53.8770879,
-        "lng": 10.6713033,
+        "lat": 50.7210069,
+        "lng": 11.3440215,
         "objectRecognition": "false",
         "owner": "Ludwigstra\u00dfe 2, 80539 M\u00fcnchen, StMELF",
         "realtime": "true"
@@ -1003,10 +1168,10 @@
     {
         "adress": "Nymphenburgerstra\u00dfe 16",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 11,
-        "lat": 48.1484472,
-        "lng": 11.5557801,
+        "lat": 48.14859999999999,
+        "lng": 11.55458,
         "objectRecognition": "false",
         "owner": "Justiz M\u00fcnchen, Nymphenburgerstra\u00dfe 16, StMJV",
         "realtime": "true"
@@ -1014,10 +1179,10 @@
     {
         "adress": "Linprunstra\u00dfe 25",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 11,
-        "lat": 48.1496354,
-        "lng": 11.5539809086629,
+        "lat": 49.07743,
+        "lng": 12.88407,
         "objectRecognition": "false",
         "owner": "Justiz M\u00fcnchen, Linprunstra\u00dfe 25, StMJV",
         "realtime": "true"
@@ -1025,10 +1190,10 @@
     {
         "adress": "Prielmayerstr. 7",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 12,
-        "lat": 48.1404932,
-        "lng": 11.5646738,
+        "lat": 48.30409,
+        "lng": 11.91055,
         "objectRecognition": "false",
         "owner": "LG, StMJ, OLG, Prielmayerstra\u00dfe 7, M\u00fcnchen, StMJV",
         "realtime": "true"
@@ -1036,10 +1201,10 @@
     {
         "adress": "Odeonsplatz 4 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 12,
-        "lat": 48.1440011,
-        "lng": 11.5774407,
+        "lat": 48.1435708,
+        "lng": 11.5781023,
         "objectRecognition": "false",
         "owner": "StMF, StMF",
         "realtime": "true"
@@ -1049,8 +1214,8 @@
         "audio": "false",
         "category": "traffic, propertySec",
         "count": 28,
-        "lat": 48.1388864,
-        "lng": 11.6888787,
+        "lat": 48.1414255,
+        "lng": 11.6868179,
         "objectRecognition": "false",
         "owner": "Messe M\u00fcnchen, Messe M\u00fcnchen",
         "realtime": "true"
@@ -1058,10 +1223,10 @@
     {
         "adress": "Richelstr 11",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 15,
-        "lat": 48.1454487,
-        "lng": 11.5295553,
+        "lat": 48.14537,
+        "lng": 11.5295,
         "objectRecognition": "false",
         "owner": "SG M\u00fcnchen Gerichtsgeb\u00e4ude Richelstra\u00dfe, SG M\u00fcnchen",
         "realtime": "true"
@@ -1069,21 +1234,32 @@
     {
         "adress": "Barbarastr. 4",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 17,
-        "lat": 49.219228,
-        "lng": 7.012479,
+        "lat": 30.1944636,
+        "lng": -92.3299342,
         "objectRecognition": "false",
         "owner": "Barbarastr. 4, BLKA",
         "realtime": "true"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 18,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Konzernzentrale, Gesch\u00e4ftsleitung",
+        "realtime": "true"
+    },
+    {
         "adress": "Hansastra\u00dfe 24",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 19,
-        "lat": 51.2694614,
-        "lng": 7.14602683542169,
+        "lat": 49.42790350000001,
+        "lng": 11.0405047,
         "objectRecognition": "false",
         "owner": "Hansastra\u00dfe 24, PP M\u00fcnchen",
         "realtime": "true"
@@ -1091,10 +1267,10 @@
     {
         "adress": "Alexandrastra\u00dfe 4",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 20,
-        "lat": 51.9415011,
-        "lng": 1.28426793595166,
+        "lat": 49.97322,
+        "lng": 9.15066,
         "objectRecognition": "false",
         "owner": "Landesamt f\u00fcr Vermessung und Geoinformation, StMF",
         "realtime": "true"
@@ -1102,10 +1278,10 @@
     {
         "adress": "Residenzstr. 1",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 27,
-        "lat": 52.5738765,
-        "lng": 13.3586786,
+        "lat": 52.57400999999999,
+        "lng": 13.35882,
         "objectRecognition": "false",
         "owner": "Residenz, Bay. Schl\u00f6sserverw.",
         "realtime": "true"
@@ -1113,10 +1289,10 @@
     {
         "adress": "Odeonsplatz 3",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 28,
-        "lat": 48.1434194,
-        "lng": 11.5771681,
+        "lat": 48.1435081,
+        "lng": 11.5773252,
         "objectRecognition": "false",
         "owner": "Dienstgeb\u00e4ude, StMI",
         "realtime": "true"
@@ -1124,10 +1300,10 @@
     {
         "adress": "Maillingerstr. 15",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 31,
-        "lat": 48.14753735,
-        "lng": 11.5453131128603,
+        "lat": 47.94936999999999,
+        "lng": 11.97053,
         "objectRecognition": "false",
         "owner": "Maillingerstr. 15, BLKA",
         "realtime": "true"
@@ -1135,10 +1311,10 @@
     {
         "adress": "Franz-Josef-Strau\u00df-Ring 1",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 32,
-        "lat": 48.1423675,
-        "lng": 11.5826614,
+        "lat": 48.14194,
+        "lng": 11.58187,
         "objectRecognition": "false",
         "owner": "Franz-J.-S.-Ring 1, Bay. Staatskanzlei",
         "realtime": "true"
@@ -1146,10 +1322,10 @@
     {
         "adress": "Ettstra\u00dfe 2",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 33,
-        "lat": 48.1391133,
-        "lng": 11.5713308,
+        "lat": 48.13919,
+        "lng": 11.57191,
         "objectRecognition": "false",
         "owner": "Ettstra\u00dfe 2, PP M\u00fcnchen",
         "realtime": "true"
@@ -1157,10 +1333,10 @@
     {
         "adress": "Rosenkavalierplatz 2",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 33,
-        "lat": 48.1526505,
-        "lng": 11.6185249,
+        "lat": 48.15273999999999,
+        "lng": 11.61819,
         "objectRecognition": "false",
         "owner": "Dienstgeb\u00e4ude, StMUG",
         "realtime": "true"
@@ -1168,10 +1344,10 @@
     {
         "adress": "Theresienstra\u00dfe 35a",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 43,
-        "lat": 51.3595549,
-        "lng": 12.3805285,
+        "lat": 48.32328,
+        "lng": 11.74976,
         "objectRecognition": "false",
         "owner": "Museum Brandhorst, Staatsgem\u00e4ldesammlungen",
         "realtime": "false"
@@ -1179,10 +1355,10 @@
     {
         "adress": "Prinzregentenstra\u00dfe 3",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 57,
-        "lat": 48.1433915,
-        "lng": 11.5911162,
+        "lat": 47.8553053,
+        "lng": 12.1254312,
         "objectRecognition": "false",
         "owner": "Museum, Bay. Nationalmuseum",
         "realtime": "true"
@@ -1190,10 +1366,10 @@
     {
         "adress": "Prinzregentenstra\u00dfe 3",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 57,
-        "lat": 48.1433915,
-        "lng": 11.5911162,
+        "lat": 47.8553053,
+        "lng": 12.1254312,
         "objectRecognition": "false",
         "owner": "Prinzregentenstra\u00dfe 3, Bayerisches Nationalmuseum",
         "realtime": "true"
@@ -1201,10 +1377,10 @@
     {
         "adress": "Barer Stra\u00dfe 27 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 101,
-        "lat": 48.1482861,
-        "lng": 11.569970904087,
+        "lat": 48.1480652,
+        "lng": 11.5707873,
         "objectRecognition": "false",
         "owner": "Alte Pinakothek, Staatsgem\u00e4ldesammlungen",
         "realtime": "false"
@@ -1212,21 +1388,32 @@
     {
         "adress": "Barer Stra\u00dfe 29 ",
         "audio": "false",
-        "category": "propertySec ",
+        "category": "propertySec",
         "count": 115,
-        "lat": 48.1499278,
-        "lng": 11.5709374458831,
+        "lat": 48.149431,
+        "lng": 11.57083,
         "objectRecognition": "false",
         "owner": "Pinakothek der Moderne, Staatsgem\u00e4ldesammlungen",
         "realtime": "false"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "traffic, propertySec",
+        "count": 118,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "Parkierungs-einrichtungen auf Privatgrund, P+R Park  &  Ride GmbH",
+        "realtime": "true"
     },
     {
         "adress": "Werner-Heisenberg-Allee 25",
         "audio": "true",
         "category": "publicSecurity",
         "count": 1,
-        "lat": 48.21875735,
-        "lng": 11.6246933758953,
+        "lat": 48.2186,
+        "lng": 11.62362,
         "objectRecognition": "false",
         "owner": "Fu\u00dfball Arena, Polizei",
         "realtime": "true"
@@ -1236,8 +1423,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 1,
-        "lat": 48.1404816,
-        "lng": 11.5703759,
+        "lat": 52.46948,
+        "lng": 13.28913,
         "objectRecognition": "false",
         "owner": "AG, Pacellistra\u00dfe 5, Nebenausgang Ost, StMJV",
         "realtime": "true"
@@ -1247,8 +1434,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 1,
-        "lat": 48.1404816,
-        "lng": 11.5703759,
+        "lat": 52.46948,
+        "lng": 13.28913,
         "objectRecognition": "false",
         "owner": "AG, Infanteriestra\u00dfe 5, Personalnebeneingang, StMJV",
         "realtime": "true"
@@ -1258,8 +1445,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 2,
-        "lat": 48.1404816,
-        "lng": 11.5703759,
+        "lat": 52.46948,
+        "lng": 13.28913,
         "objectRecognition": "false",
         "owner": "AG, Pacellistra\u00dfe 5, Eingang S\u00fcd, StMJV",
         "realtime": "true"
@@ -1269,8 +1456,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 3,
-        "lat": 48.1415021,
-        "lng": 11.5187641,
+        "lat": 48.1436344,
+        "lng": 11.5195177,
         "objectRecognition": "false",
         "owner": "Hirschgarten, DB Station & Service AG",
         "realtime": "false"
@@ -1280,8 +1467,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 3,
-        "lat": 50.82727745,
-        "lng": 6.1233363829918,
+        "lat": 48.2003216,
+        "lng": 16.3709743,
         "objectRecognition": "false",
         "owner": "Stachus / HBF, PP M\u00fcnchen",
         "realtime": "true"
@@ -1291,8 +1478,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 3,
-        "lat": 48.13355,
-        "lng": 11.5662313,
+        "lat": 48.133445,
+        "lng": 11.566683,
         "objectRecognition": "false",
         "owner": "Sendlinger Tor, PP M\u00fcnchen",
         "realtime": "true"
@@ -1302,8 +1489,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 4,
-        "lat": 48.1416183,
-        "lng": 11.5484591,
+        "lat": 48.1415102,
+        "lng": 11.548463,
         "objectRecognition": "false",
         "owner": "Hackerbr\u00fccke, DB Station & Service AG",
         "realtime": "false"
@@ -1313,8 +1500,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 4,
-        "lat": 48.11047775,
-        "lng": 11.5955623933732,
+        "lat": 48.1104912,
+        "lng": 11.5954369,
         "objectRecognition": "false",
         "owner": "Giesing (Versuchsanlage), DB Station & Service AG",
         "realtime": "false"
@@ -1324,8 +1511,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 5,
-        "lat": 48.1382998,
-        "lng": 11.5778214,
+        "lat": 52.8706927,
+        "lng": 11.0859455,
         "objectRecognition": "false",
         "owner": "Eintrittskarten-kassen, Bayer. Staatstheater",
         "realtime": "false"
@@ -1335,8 +1522,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 6,
-        "lat": 51.3755453,
-        "lng": 12.3611326,
+        "lat": 48.14368,
+        "lng": 11.50244,
         "objectRecognition": "false",
         "owner": "Laim, DB Station & Service AG",
         "realtime": "false"
@@ -1346,8 +1533,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 7,
-        "lat": 48.1398818,
-        "lng": 11.5342936,
+        "lat": 48.142623,
+        "lng": 11.536537,
         "objectRecognition": "false",
         "owner": "Donnersbergerbr\u00fccke, DB Station & Service AG",
         "realtime": "false"
@@ -1357,8 +1544,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 8,
-        "lat": 49.3926501,
-        "lng": 11.1739852998223,
+        "lat": 48.6748603,
+        "lng": 9.2753806,
         "objectRecognition": "false",
         "owner": "Siemenswerke (Versuchsanlage), DB Station & Service AG",
         "realtime": "false"
@@ -1368,8 +1555,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 9,
-        "lat": 53.5342859,
-        "lng": 10.0255004,
+        "lat": 48.15326,
+        "lng": 12.18405,
         "objectRecognition": "false",
         "owner": "Isartor, DB Station & Service AG",
         "realtime": "false"
@@ -1379,8 +1566,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 10,
-        "lat": 48.1282641,
-        "lng": 11.5943143,
+        "lat": 48.129168,
+        "lng": 11.593049,
         "objectRecognition": "false",
         "owner": "Rosenheimer Platz, DB Station & Service AG",
         "realtime": "false"
@@ -1390,8 +1577,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 13,
-        "lat": 50.1697179,
-        "lng": 12.1256682,
+        "lat": 48.6293689,
+        "lng": 12.4986873,
         "objectRecognition": "false",
         "owner": "Christkindlmarkt, PP M\u00fcnchen",
         "realtime": "true"
@@ -1401,8 +1588,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 17,
-        "lat": 48.1313385,
-        "lng": 11.5494188751698,
+        "lat": 48.13571899999999,
+        "lng": 11.552274,
         "objectRecognition": "false",
         "owner": "Oktoberfest, PP M\u00fcnchen",
         "realtime": "true"
@@ -1412,8 +1599,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 18,
-        "lat": 50.82727745,
-        "lng": 6.1233363829918,
+        "lat": 48.2003216,
+        "lng": 16.3709743,
         "objectRecognition": "false",
         "owner": "Karlsplatz, DB Station & Service AG",
         "realtime": "false"
@@ -1423,8 +1610,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 18,
-        "lat": 48.2625067,
-        "lng": 15.5624114,
+        "lat": 48.1373932,
+        "lng": 11.5754485,
         "objectRecognition": "false",
         "owner": "Marienplatz, DB Station & Service AG",
         "realtime": "false"
@@ -1434,8 +1621,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 37,
-        "lat": 48.1284717,
-        "lng": 11.6056946,
+        "lat": 32.429685,
+        "lng": -93.729646,
         "objectRecognition": "false",
         "owner": "Ostbahnhof, DB Station & Service AG",
         "realtime": "false"
@@ -1445,8 +1632,8 @@
         "audio": "false",
         "category": "publicSecurity",
         "count": 314,
-        "lat": 48.0995135,
-        "lng": 11.5922312673056,
+        "lat": 48.1009357,
+        "lng": 11.5915344,
         "objectRecognition": "true",
         "owner": "JVA M\u00fcnchen, JVA",
         "realtime": "true"
@@ -1456,10 +1643,43 @@
         "audio": "false",
         "category": "traffic",
         "count": 4,
-        "lat": 48.1398379,
-        "lng": 11.6984336,
+        "lat": 48.13791,
+        "lng": 11.69781,
         "objectRecognition": "false",
         "owner": "Parkhaus Nord, Messe M\u00fcnchen",
         "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "",
+        "count": 941,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "\u00d6PNV-Fahrzeuge Bus, Stadtwerke M\u00fcnchen GmbH",
+        "realtime": "false"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "",
+        "count": 308,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "\u00d6PNV-Fahrzeuge Tram, Stadtwerke M\u00fcnchen GmbH",
+        "realtime": "false"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "",
+        "count": 400,
+        "lat": 0,
+        "lng": 0,
+        "objectRecognition": "false",
+        "owner": "\u00d6PNV-Fahrzeuge U-Bahn, Stadtwerke M\u00fcnchen GmbH",
+        "realtime": "false"
     }
 ]

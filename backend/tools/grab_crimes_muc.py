@@ -263,8 +263,8 @@ def get_munich_streetnames():
 def translate_address(addr, fetch):
 
     if fetch:
-        #geolocator = geopy.Nominatim()
-        geolocator = geopy.GoogleV3()
+        geolocator = geopy.Nominatim()
+        #geolocator = geopy.GoogleV3()
         location = geolocator.geocode(addr)
 
         if location is None:
@@ -285,7 +285,8 @@ def translate_address(addr, fetch):
 
 def add_cam_lat_lon():
 
-    cam_fname = "cameradata.json"
+    #cam_fname = "cameradata.json"
+    cam_fname = "camdataUbahn"
 
     def _to_unicode(str, verbose=False):
         '''attempt to fix non uft-8 string into utf-8, using a limited set of encodings'''
@@ -321,12 +322,15 @@ def add_cam_lat_lon():
 
     new_dat = []
     for d in data:
+
         if d["lat"] and d["lng"]:
+            print "Ubahn? skip addr", d
             new_dat.append(d)
         else:
+            #print d
             try:
                 #print d["adress"]
-                lat, lng = translate_address(d["adress"])
+                lat, lng = translate_address(d["adress"], True)
                 d["lat"] = lat
                 d["lng"] = lng
                 new_dat.append(d)
@@ -345,10 +349,10 @@ def add_cam_lat_lon():
 
 if __name__ == '__main__':
     #get_munich_streetnames()
-    fetch_reports(fetch=False)
-    #add_cam_lat_lon()
+    #fetch_reports(fetch=False)
+    add_cam_lat_lon()
 
 # TODO dump htmls only once to work offline
-# TODO fix "Grund"
+# TODO fix "Grund
 # TODO Fix incident categories
 # TODO lat lon im Umland
