@@ -132,45 +132,6 @@
         oContent.style.height = window.innerHeight + 'px';
         oContent.height = window.innerHeight + 'px';
 
-        // var worker = new Worker('scripts/renderer.js');
-        // worker.addEventListener('message', function(e) {
-        //     document.body.setAttribute('style', 'background-image: ' + e.data);
-        // }, false);
-
-        // var body = document.body;
-        // var html = document.documentElement;
-        // var height = Math.max(body.scrollHeight, body.offsetHeight,
-        //     html.clientHeight, html.scrollHeight, html.offsetHeight);
-
-        // worker.postMessage({
-        //     'cmd': 'trianglify',
-        //     'cellsize': '60',
-        //     'width': body.offsetWidth,
-        //     'height': height
-        // });
-
-        // t = new Trianglify();
-        // t.options.x_gradient = Trianglify.randomColor();
-        // t.options.y_gradient = t.options.x_gradient.map(function(c) {
-        //     return d3.rgb(c).brighter(0.5);
-        // });
-        // t.options.cellsize = 150;
-        // var body = document.body;
-        // var html = document.documentElement;
-        // var height = Math.max( body.scrollHeight, body.offsetHeight, 
-        //                html.clientHeight, html.scrollHeight, html.offsetHeight );
-        // var pattern = t.generate(body.offsetWidth, height); // svg width, height
-        // // pattern.svg // SVG DOM Node object
-        // // pattern.svgString // String representation of the svg element
-        // // pattern.base64 // Base64 representation of the svg element
-        // // pattern.dataUri // data-uri string
-        // // pattern.dataUrl // data-uri string wrapped in url() for use in css
-        // // pattern.append() // append pattern to <body>. Useful for testing.
-        // body.setAttribute('style', 'height: 5rem; background-size: cover; background-image: ' + pattern.dataUrl);
-        // // oGlassContent.innerHTML = pattern.svgString;
-
-        // limitLoop(colorize, 10);
-
         var mapOptions = {
             zoom: 14,
             center: new google.maps.LatLng(48.1351253, 11.5819806)
@@ -255,6 +216,7 @@
     function addCamMarker(cam, image, animated) {
         var lat, lng;
         if (typeof cam.lat == "string" && typeof cam.lng == "string") {
+            // GPS Position are notated as strings and must be transformed
             var latParts = cam.gps.split(/[^\d\w]+/);
             var lngParts = cam.gps.split(/[^\d\w]+/);
             lat = ConvertDMSToDD(latParts[0], latParts[1], latParts[2], latParts[3]);
@@ -278,11 +240,6 @@
         var realtime = cam.realtime ? "Ja" : "Nein";
         var oR = cam.objectRecognition ? "Ja" : "Nein";
 
-
-        // traffic= Verkehrsüberwachtung
-        // publicSecurity = öffentliche Sicherheit
-        // propertySec = Objektschutz
-        // other= Sonstiges
         var category = '';
         if (cam.category.indexOf("publicSecurity") > -1) category += "<i class='icon-shield'></i><span>Öffentliche Sicherheit</span>";
         if (cam.category.indexOf("traffic") > -1) category += "<i class='icon-road'></i><span>Verkehrsüberwachtung</span>";
