@@ -217,10 +217,13 @@
         var lat, lng;
         if (typeof cam.lat == "string" && typeof cam.lng == "string") {
             // GPS Position are notated as strings and must be transformed
-            var latParts = cam.gps.split(/[^\d\w]+/);
-            var lngParts = cam.gps.split(/[^\d\w]+/);
-            lat = ConvertDMSToDD(latParts[0], latParts[1], latParts[2], latParts[3]);
-            lng = ConvertDMSToDD(lngParts[4], lngParts[5], lngParts[6], lngParts[7]);
+            // debugger
+            cam.lat = cam.lat.replace(/\s+/g,"");
+            cam.lng = cam.lng.replace(/\s+/g,"");
+            var latParts = cam.lat.split(/[^\d\w]+/);
+            var lngParts = cam.lng.split(/[^\d\w]+/);
+            lat = ConvertDMSToDD(parseInt(latParts[0]), parseInt(latParts[1]), parseInt(latParts[2]), latParts[3]);
+            lng = ConvertDMSToDD(parseInt(lngParts[0]), parseInt(lngParts[1]), parseInt(lngParts[2]), lngParts[3]);
         } else {
             lat = cam.lat;
             lng = cam.lng;
@@ -228,7 +231,7 @@
 
         animated = animated ? google.maps.Animation.DROP : null;
         var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(cam.lat, cam.lng),
+            position: new google.maps.LatLng(lat, lng),
             map: map,
             icon: image,
             title: cam.owner,
@@ -241,14 +244,16 @@
         var oR = cam.objectRecognition ? "Ja" : "Nein";
 
         var category = '';
-        if (cam.category.indexOf("publicSecurity") > -1) category += "<i class='icon-shield'></i><span>Öffentliche Sicherheit</span>";
-        if (cam.category.indexOf("traffic") > -1) category += "<i class='icon-road'></i><span>Verkehrsüberwachtung</span>";
-        if (cam.category.indexOf("propertySec") > -1) category += "<i class='icon-building'></i><span>Objektschutz</span>";
-        if (cam.category.indexOf("other") > -1) category += "<i class='icon-eye2'></i><span>Sonstiges</span>";
+        if (cam.category.indexOf("publicSecurity") > -1) category += "<i class='icon-shield'></i><span>Öffentliche Sicherheit </span>";
+        if (cam.category.indexOf("traffic") > -1) category += "<i class='icon-road'></i><span>Verkehrsüberwachtung </span>";
+        if (cam.category.indexOf("propertySec") > -1) category += "<i class='icon-building'></i><span>Objektschutz </span>";
+        if (cam.category.indexOf("other") > -1) category += "<i class='icon-eye2'></i><span>Sonstiges </span>";
+
+        var address = (cam.adress == "") ? cam.owner : cam.adress;
 
         marker.info = new google.maps.InfoWindow({
             content: '<div class="popup-marker"><h2>' + cam.owner + '</h2>' +
-                '<div><b>Adresse:</b><span>' + cam.adress + '</span></div>' +
+                '<div><b>Adresse:</b><span>' + address + '</span></div>' +
                 '<div><b>Anzahl Kameras:</b><span>' + cam.count + '</span></div>' +
                 '<div><b>Kategorie:</b><span>' + category + '</span></div>' +
                 '<div><i class="icon-audio"></i><b>Audiofähig:</b><span>' + audio + '</span></div>' +
