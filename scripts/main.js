@@ -155,29 +155,13 @@
         ];
         heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
 
-        var citymap = {};
-        citymap['munich'] = {
-            center: new google.maps.LatLng(48.1351253, 11.5819806),
-            population: 350
-        };
-        citymap['munich2'] = {
-            center: new google.maps.LatLng(48.16646, 11.57276),
-            population: 350
-        };
-        for (var city in citymap) {
-            var populationOptions = {
-                strokeColor: '#000000',
-                strokeOpacity: 0.8,
-                strokeWeight: 2,
-                fillColor: '#000000',
-                fillOpacity: 0.35,
-                map: map,
-                center: citymap[city].center,
-                radius: Math.sqrt(citymap[city].population) * 100
-            };
-            // Add the circle for this city to the map.
-            var cityCircle = new google.maps.Circle(populationOptions);
-        }
+        var image = 'img/mapcam.svg';
+        var myLatLng = new google.maps.LatLng(48.1351253, 11.5819806);
+        var beachMarker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            icon: image
+        });
         heatmap.setMap(map);
     }
 
