@@ -34,6 +34,11 @@ body {background: #dddddd; -webkit-font-smoothing: antialiased; font-smoothing: 
 .app img.app-store {width: 100%; margin-top: 20px;}
 .app p {color: white; width: 100%; text-align: center; margin-top: 20px;}
 
+.popup-marker {font-size: .8rem;}
+.popup-marker div {padding: 5px;}
+.popup-marker b {display: inline; padding-right: 3px;}
+.popup-marker p {font-weight: 600; display: inline;}
+
 body.revealed .app {opacity: 0;}
 
 header {position: absolute; width: 100%; top: 50%; text-align: center; transform: translateY(-150%); -webkit-transform: translateY(-150%); z-index: 5;}

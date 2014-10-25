@@ -21,7 +21,7 @@
         isRevealed = false,
         aAnimIn, t,
         map, pointarray, heatmap,
-        markers = [];
+        infoWindows = [];
 
     // Event handling
     function addListeners() {
@@ -187,8 +187,24 @@
         heatmap.set('radius', heatmap.get('radius') ? null : 50);
         var gradient = [
             'rgba(255, 255, 255, 0)',
-            'rgba(255, 255, 159, 1)',
-            'rgba(255, 0, 0, 1)'
+            'rgba(255, 0, 0, 1)',
+            'rgba(255, 0, 0, 1)',
+            'rgba(255, 0, 0, 1)',
+            'rgba(255, 0, 0, 1)',
+            'rgba(255, 0, 0, 1)',
+            'rgba(240, 0, 0, 1)',
+            'rgba(220, 0, 0, 1)',
+            'rgba(200, 0, 0, 1)',
+            'rgba(180, 0, 0, 1)',
+            'rgba(160, 0, 0, 1)',
+            'rgba(140, 0, 0, 1)',
+            'rgba(120, 0, 0, 1)',
+            'rgba(100, 0, 0, 1)',
+            'rgba(80, 0, 0, 1)',
+            'rgba(60, 0, 0, 1)',
+            'rgba(40, 0, 0, 1)',
+            'rgba(20, 0, 0, 1)',
+            'rgba(0, 0, 0, 1)'
         ];
         heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
 
@@ -198,6 +214,12 @@
             addMarker(cam, image, false);
         };
         heatmap.setMap(map);
+    }
+
+    function closeAllInfoWindows() {
+        for (var i = 0; i < infoWindows.length; i++) {
+            infoWindows[i].close();
+        }
     }
 
     function addMarker(cam, image, animated) {
@@ -210,11 +232,24 @@
             draggable: false,
             animation: animated
         });
-        // var marker = markers[markers.length - 1];
+
+        var audio = cam.audio ? "Ja" : "Nein";
+        var realtime = cam.realtime ? "Ja" : "Nein";
+        var oR = cam.objectRecognition ? "Ja" : "Nein";
+
         marker.info = new google.maps.InfoWindow({
-            content: '<b>Speed:</b> ' + 23 + ' knots'
+            content: '<div class="popup-marker"><h2>' + cam.owner + '</h2>' +
+                '<div><b>Adresse:</b><p>' + cam.adress + '</p></div>' +
+                '<div><b>Anzahl Kameras:</b><p>' + cam.count + '</p></div>' +
+                '<div><b>Kategorie</b><p>' + cam.category + '</p></div>' +
+                '<div><b>Audiofähig:</b><p>' + audio + '</p></div>' +
+                '<div><b>Echtzeitübertragung:</b><p>' + realtime + '</p></div>' +
+                '<div><b>Objekterkennung:</b><p>' + oR + '</p></div>' +
+                '</div>'
         });
+        infoWindows.push(marker.info); 
         google.maps.event.addListener(marker, 'click', function() {
+            closeAllInfoWindows();
             marker.info.open(map, marker);
         });
     }
@@ -451,21 +486,22 @@
         };
     }
 
-    var crimeData = [{
-        title: "gjhfbv",
-        adress: 'ghjsdgjhfgsdjhfbkjs',
-        time: 7386489723697,
-        type: "Raub",
-        lat: 48.16646,
-        lng: 11.57276
-    }, {
-        title: "hdbvsjhdbhvb",
-        adress: 'ghjsdgjhfgsdjhfbkjs',
-        time: 7386489723697,
-        type: "Mord",
-        lat: 48.16166,
-        lng: 11.57496
-    }];
+    // var crimeData = require('data/incidents.json');
+    // [{
+    //     title: "gjhfbv",
+    //     adress: 'ghjsdgjhfgsdjhfbkjs',
+    //     time: 7386489723697,
+    //     type: "Raub",
+    //     lat: 48.16646,
+    //     lng: 11.57276
+    // }, {
+    //     title: "hdbvsjhdbhvb",
+    //     adress: 'ghjsdgjhfgsdjhfbkjs',
+    //     time: 7386489723697,
+    //     type: "Mord",
+    //     lat: 48.16166,
+    //     lng: 11.57496
+    // }];
     var camData = [{
         owner: 'Staat',
         adress: 'ghjsdgjhfgsdjhfbkjs',
