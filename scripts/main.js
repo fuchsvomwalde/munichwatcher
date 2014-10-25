@@ -18,7 +18,8 @@
         iCurrentBgr = 0,
         bgrInterval, noscroll = true,
         isRevealed = false,
-        aAnimIn, t;
+        aAnimIn, t,
+        map, pointarray, heatmap;
 
     // Event handling
     function addListeners() {
@@ -27,6 +28,7 @@
         skipper.addEventListener('click', function() {
             toggle(1);
         });
+        if (!language) return;
         for (var i = 0; i < language.children.length; i++) {
             language.children[i].addEventListener('click', function(e) {
                 if (e.currentTarget.nodeName === 'A') {
@@ -71,6 +73,7 @@
         var i = 0;
         var timeoutAnimation = function() {
             setTimeout(function() {
+                if (aContactItems.length == 0) return;
                 aContactItems[i].className = aContactItems[i].className + ' fxFlipInX';
                 i++;
                 if (i < aContactItems.length) timeoutAnimation();
@@ -88,6 +91,8 @@
         skipper = document.querySelector("#header-skipper");
         aAnimIn = document.querySelectorAll('.animation-init');
         language = document.getElementById('language-setting');
+
+        oContent.style.height = window.innerHeight;
 
         // var worker = new Worker('scripts/renderer.js');
         // worker.addEventListener('message', function(e) {
@@ -126,10 +131,57 @@
         // body.setAttribute('style', 'height: 5rem; background-size: cover; background-image: ' + pattern.dataUrl);
         // // oGlassContent.innerHTML = pattern.svgString;
 
-        limitLoop(colorize, 10);
+        // limitLoop(colorize, 10);
+
+        var mapOptions = {
+            zoom: 14,
+            center: new google.maps.LatLng(48.1351253, 11.5819806)
+        };
+        map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+
+        var pointArray = new google.maps.MVCArray(crimeData.map(function(crime) {
+            return new google.maps.LatLng(crime.lat, crime.lng);
+        }));
+
+        heatmap = new google.maps.visualization.HeatmapLayer({
+            data: pointArray
+        });
+        heatmap.set('radius', heatmap.get('radius') ? null : 50);
+        var gradient = [
+            'rgba(255, 255, 255, 0)',
+            'rgba(255, 255, 159, 1)',
+            'rgba(255, 0, 0, 1)'
+        ];
+        heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
+
+        var citymap = {};
+        citymap['munich'] = {
+            center: new google.maps.LatLng(48.1351253, 11.5819806),
+            population: 350
+        };
+        citymap['munich2'] = {
+            center: new google.maps.LatLng(48.16646, 11.57276),
+            population: 350
+        };
+        for (var city in citymap) {
+            var populationOptions = {
+                strokeColor: '#000000',
+                strokeOpacity: 0.8,
+                strokeWeight: 2,
+                fillColor: '#000000',
+                fillOpacity: 0.35,
+                map: map,
+                center: citymap[city].center,
+                radius: Math.sqrt(citymap[city].population) * 100
+            };
+            // Add the circle for this city to the map.
+            var cityCircle = new google.maps.Circle(populationOptions);
+        }
+        heatmap.setMap(map);
     }
 
-    function colorize(){
+    function colorize() {
         t.options.x_gradient = Trianglify.randomColor();
         t.options.y_gradient = t.options.x_gradient.map(function(c) {
             return d3.rgb(c).brighter(0.5);
@@ -218,6 +270,8 @@
         largeHeader.style.height = height + 'px';
         canvas.width = width;
         canvas.height = height;
+
+        oContent.style.height = height;
     }
 
     function toggle(reveal) {
@@ -358,4 +412,9 @@
             ctx.fill();
         };
     }
+
+    var crimeData = [{
+        lat: 48.16646,
+        lng: 11.57276
+    }];
 })();
