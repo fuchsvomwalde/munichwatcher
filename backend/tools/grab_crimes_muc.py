@@ -161,11 +161,75 @@ def translate_address(addr):
     return location.latitude, location.longitude
 
 
+import simplejson as smpljson
+
+def add_cam_lat_lon():
+
+    cam_fname = "cameradata.json"
+
+    def _to_unicode(str, verbose=False):
+        '''attempt to fix non uft-8 string into utf-8, using a limited set of encodings'''
+        # fuller list of encodings at http://docs.python.org/library/codecs.html#standard-encodings
+        if not str:  return u''
+        u = None
+        # we could add more encodings here, as warranted.
+        encodings = ('ascii', 'utf8', 'latin1')
+        for enc in encodings:
+            if u:  break
+            try:
+                u = unicode(str,enc)
+            except UnicodeDecodeError:
+                if verbose: print "error for %s into encoding %s" % (str, enc)
+                pass
+        if not u:
+            u = unicode(str, errors='replace')
+            if verbose:  print "using replacement character for %s" % str
+        return u
+
+
+    with open(cam_fname, "r") as f:
+        dat = _to_unicode(f.read())
+
+        #data = json.loads(dat.decode("utf-8"), encoding="utf-8")
+        data = json.loads(dat)
+        #data = smpljson.loads(dat)
+        #data = json.loads(dat.decode("utf-8"))
+
+        #print dat
+        #print data
+        #return
+        #data = json.loads(f.read(), encoding="utf-8")
+
+    new_dat = []
+    for d in data:
+        try:
+            #print d["adress"]
+            lat, lng = translate_address(d["adress"])
+            d["lat"] = lat
+            d["lng"] = lng
+            new_dat.append(d)
+        except AttributeError:
+            print "Error:", d
+
+    #print data
+
+    with open(cam_fname, "w") as f:
+        f.write(json.dumps(new_dat, sort_keys=True,
+                           indent=4, separators=(',', ': ')))
+
+        # f.write(json.dumps(new_dat, sort_keys=True,
+        #                    indent=4, separators=(',', ': '), encoding="utf-8", ensure_ascii=False))
+
+
 if __name__ == '__main__':
     #get_munich_streetnames()
+    #fetch_reports()
+    add_cam_lat_lon()
 
+# TODO dump htmls only once to work offline
+# fix "Grund"
+# Fix incident categories
 
-    fetch_reports()
 
     #translate_address("Dinkelsbühler str. 30, münchen")
 
