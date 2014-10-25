@@ -6,6 +6,7 @@
         initHeader();
         initContent();
         addListeners();
+        initWebSocket();
         setTimeout(function() {
             window.scrollTo(0, 0);
         }, 1);
@@ -19,7 +20,8 @@
         bgrInterval, noscroll = true,
         isRevealed = false,
         aAnimIn, t,
-        map, pointarray, heatmap;
+        map, pointarray, heatmap,
+        markers = [];
 
     // Event handling
     function addListeners() {
@@ -82,6 +84,41 @@
 
         disable_scroll();
         timeoutAnimation();
+    }
+
+    function initWebSocket() {
+        var connection = new WebSocket('ws://echo.websocket.org');
+
+        // When the connection is open, send some data to the server
+        connection.onopen = function() {
+            connection.send('Ping'); // Send the message 'Ping' to the server
+        };
+
+        // Log errors
+        connection.onerror = function(error) {
+            console.log('WebSocket Error ' + error);
+        };
+
+        // Log messages from the server
+        connection.onmessage = function(e) {
+            console.log('Server: ' + e.data);
+
+            var newCam = {
+                img: 'base64',
+                owner: 'Staat',
+                adress: 'ghjsdgjhfgsdjhfbkjs',
+                count: 10,
+                category: 'Traffic',
+                audio: true,
+                realtime: false,
+                objectRecognition: true,
+                lat: 48.1355553,
+                lng: 11.5839806
+            };
+
+            var image = 'img/mapcamNew.svg';
+            addMarker(newCam, image, true);
+        };
     }
 
     function initContent() {
@@ -156,13 +193,30 @@
         heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
 
         var image = 'img/mapcam.svg';
-        var myLatLng = new google.maps.LatLng(48.1351253, 11.5819806);
-        var beachMarker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            icon: image
-        });
+        for (var i = 0; i < camData.length; i++) {
+            var cam = camData[i];
+            addMarker(cam, image, false);
+        };
         heatmap.setMap(map);
+    }
+
+    function addMarker(cam, image, animated) {
+        animated = animated ? google.maps.Animation.DROP : null;
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(cam.lat, cam.lng),
+            map: map,
+            icon: image,
+            title: cam.owner,
+            draggable: false,
+            animation: animated
+        });
+        // var marker = markers[markers.length - 1];
+        marker.info = new google.maps.InfoWindow({
+            content: '<b>Speed:</b> ' + 23 + ' knots'
+        });
+        google.maps.event.addListener(marker, 'click', function() {
+            marker.info.open(map, marker);
+        });
     }
 
     function colorize() {
@@ -398,7 +452,40 @@
     }
 
     var crimeData = [{
+        title: "gjhfbv",
+        adress: 'ghjsdgjhfgsdjhfbkjs',
+        time: 7386489723697,
+        type: "Raub",
         lat: 48.16646,
         lng: 11.57276
+    }, {
+        title: "hdbvsjhdbhvb",
+        adress: 'ghjsdgjhfgsdjhfbkjs',
+        time: 7386489723697,
+        type: "Mord",
+        lat: 48.16166,
+        lng: 11.57496
+    }];
+    var camData = [{
+        owner: 'Staat',
+        adress: 'ghjsdgjhfgsdjhfbkjs',
+        count: 10,
+        category: 'Traffic',
+        audio: true,
+        realtime: false,
+        objectRecognition: true,
+        lat: 48.1351253,
+        lng: 11.5819806
+    }, {
+        img: 'base64',
+        owner: 'Staat',
+        adress: 'ghjsdgjhfgsdjhfbkjs',
+        count: 10,
+        category: 'Traffic',
+        audio: true,
+        realtime: false,
+        objectRecognition: true,
+        lat: 48.1355553,
+        lng: 11.5839806
     }];
 })();
