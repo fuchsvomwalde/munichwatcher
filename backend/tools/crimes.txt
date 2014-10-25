@@ -1,0 +1,323 @@
+raub	2014-06-25	Bayerstraße	Straßenraub nach Biergartenbesuch; weitere Tatverdächtige festgenommen – Ludwigsvorstadt
+überfall	2014-06-25	Bayerstraße	Straßenraub nach Biergartenbesuch; weitere Tatverdächtige festgenommen – Ludwigsvorstadt
+raub	2014-07-12	Halserspitzstraße	Versuchter Handtaschenraub – Berg-am-Laim
+dieb	2014-07-11	Lerchenauer Straße	Festnahme eines professionellen Fahrraddiebs - Olympiapark
+dieb	2013-12-09	Hans-Mielich-Straße	Trickdiebstahl durch falschen Hausverwalter
+raub	2013-12-09	Lerchenauer Straße	Raub mit Schusswaffe auf einen Lebensmittelmarkt - Lerchenau
+raub	2013-12-09	Donnersbergerstraße	Versuchter Straßenraub durch Jugendliche in Neuhausen
+überfall	2013-12-09	Donnersbergerstraße	Versuchter Straßenraub durch Jugendliche in Neuhausen
+raub	2014-06-27	Falkenstraße	Hubschraubereinsatz verursacht Sachschaden bei Landung - Unterschleißheim
+raub	2014-07-07	Lindwurmstraße	1127: Festnahme nach Straßenraub – Innenstadt
+dieb	2014-04-05	Marienplatz	557. Zivilkräfte vereiteln Taschendiebstahl – Altstadt
+raub	2014-03-26	Käthe-Bauer-Weg	Schadensträchtiger Einbruch in Wohnung - Laim
+raub	2014-03-26	Joergstraße	Handy-Räuber festgenommen - Laim
+dieb	2014-03-25	Oskar-Maria-Graf-Ring	Falscher Polizeibeamter bestiehlt Rentnerin - Neuperlach
+dieb	2014-03-10	Pippinger Straße	Trickdieb konnte nach weiterer Straftat festgenommen werden - Pasing
+dieb	2014-03-10	Rumfordstraße	Festnahme nach Diebstahl eines Saxophon aus einem Pkw - Isarvorstadt
+dieb	2013-08-06	Riesstraße	Diebstahl im Warenhaus -Moosach
+dieb	2014-03-13	Grund	Ermittlungen im Bereich der Münchner Wertstoffhöfe wegen illegalem Weiterverkauf von Wertstoffen
+raub	2014-01-16	Haderunstraße	Straßenraub in Großhadern
+dieb	2014-01-17	Rotkreuzplatz	Festnahme einer Diebin – Neuhausen
+raub	2014-06-23	Grund	Schwerer Raub auf Goldverkaufsgeschäft; ein Täter flüchtig – Öffentlichkeitsfahndung
+raub	2014-06-24	Bayerstraße	Straßenraub nach Biergartenbesuch; zwei Tatverdächtige festgenommen – Ludwigsvorstadt
+überfall	2014-06-24	Bayerstraße	Straßenraub nach Biergartenbesuch; zwei Tatverdächtige festgenommen – Ludwigsvorstadt
+dieb	2014-06-26	Rudolf-Harbig-Weg	Festnahme von zwei Fahrraddieben beim „Public Viewing“ auf dem Olympiagelände
+dieb	2014-08-18	Lerchenauer Straße	Aufmerksame Hausfrau überrascht Radldieb vor der eigenen Haustür – Olympiapark
+raub	2014-08-16	Quiddestraße	Versuchter Straßenraub – Neuperlach
+dieb	2014-04-20	Hohenzollernstraße	Einbruch in Pizzeria mittels DNA und Fingerspuren geklärt – Schwabing
+dieb	2013-04-15	Brandenburger Straße	Nach Diebstahl aus Kraftfahrzeug; Täter ermittelt und zu Freiheitsstrafe verurteilt
+raub	2014-05-05	Bayerstraße	Straßenraub mit Messer am Hauptbahnhof
+raub	2014-05-24	Darmstädter Straße	861. Versuchter Raub eines Rucksacks - Moosach
+dieb	2014-05-26	Friedrichstraße	865. Wohnungseinbruch in Schwabing
+raub	2014-05-15	Großhaderner Straße	Raub einer Mütze, versuchter Handtaschenraub und Beleidigung - Kleinhadern
+dieb	2014-03-26	Barer Straße	491. Diebstahl aus Wohnung; zwei falsche Polizeibeamte bestehlen Rentnerin - Maxvorstadt
+dieb	2014-03-27	Winthirstraße	492. Einbruchdiebstahl aus zwei Wohnungen - Neuhausen
+überfall	2014-03-19	Pegnitzstraße	496. Überfallartige Vergewaltigung durch Einzeltäter – Gern
+raub	2013-12-15	Peschelanger	Raub mit Messer auf Bäckereifiliale in Neuperlach
+dieb	2013-12-13	Ettstraße	Weihnachtspräventionsmarkt im Polizeipräsidium München
+raub	2013-12-15	Dülferstraße	Rucksackraub mit gefährlicher Körperverletzung im Hasenbergl
+dieb	2014-07-07	Reichenaustraße	Trickdiebstahl – Neuaubing
+dieb	2014-10-10	Elisabeth-Selbert-Straße	Trickdiebe stehlen Rentnerin Goldkette vom Hals – Freimann
+raub	2014-04-16	Grund	Fahrer eines Kleintransporters übersieht Leichtkraftradfahrer; eine Person leicht, eine Person schwer verletzt - Feldkirchen
+dieb	2014-04-16	Tal	Professioneller Taschendieb festgenommen - Altstadt
+dieb	2014-03-26	Falkenstraße	Taschendiebstahl - Au
+raub	2014-07-22	Heidemannstraße	1253. Straßenraub unter Asylbewerbern; vier Täter festgenommen – Am Hart
+dieb	2014-08-04	Dachauer Straße	Rumänischer Fahrraddieb festgenommen - Ludwigsfeld
+raub	2014-08-02	Karlsplatz (Stachus)	Versuchter Raub einer Goldkette - Innenstadt
+raub	2014-08-03	Englschalkinger Straße	Straßenraub in Bogenhausen
+dieb	2013-12-02	Agnes-Bernauer-Straße	Münzwechseltrickdieb festgenommen
+dieb	2013-12-02	Grund	Taschendiebe festgenommen
+raub	2013-12-02	Im Gefilde	Rollstuhlfahrerin beraubt - Waldperlach
+überfall	2014-05-10	Aidenbachstraße	Versuchte überfallartige Vergewaltigung – Mittersendling
+dieb	2014-05-06	Schützenstraße	Bande von fünf Ladendieben stehlen Parfüms - Innenstadt
+raub	2014-05-06	Grund	Wohnungseinbruch in Gräfelfing
+raub	2014-05-07	Müllerstraße	Raub einer Umhängetasche – Altstadt
+raub	2014-09-05	Adlzreiterstraße	Straßenraub mit Messer in zwei Fällen - Isarvorstadt
+überfall	2014-09-05	Adlzreiterstraße	Straßenraub mit Messer in zwei Fällen - Isarvorstadt
+dieb	2014-09-04	Bäckerstraße	Häufung von Einbrüchen in Firmen im Münchner Westen
+raub	2014-09-06	Graubündener Straße	Pkw-Fahrer fährt auf Fahrbahn ein, ohne auf den
+dieb	2014-07-11	Maffeistraße	1337. Diebstahl einer Krokoledertasche aus einem Modegeschäft - Altstadt
+dieb	2014-02-19	Jakob-Gelb-Platz	Trickdiebstahl durch falschen Polizeibeamten - Untergiesing
+dieb	2014-02-19	Pasinger Bahnhofsplatz	Räuberischer Diebstahl in Pasing
+dieb	2014-02-19	Döllingerstraße	Einbruch in eine Erdgeschosswohnung - Nymphenburg
+raub	2014-09-11	Agnes-Bernauer-Platz	1568. Raubüberfall auf einen Behinderten - Laim
+überfall	2014-09-11	Agnes-Bernauer-Platz	1568. Raubüberfall auf einen Behinderten - Laim
+raub	2014-08-04	Starnberger Straße	Kollision zweier Radfahrer – eine Person schwer verletzt - Hohenschäftlarn
+raub	2014-08-04	Fischartstraße	Versuchter Raub der Einkaufstasche einer 90-Jährigen - Laim
+dieb	2014-01-29	Ettstraße	 Trickdiebinnen in Schmuckgeschäft - Unterföhring
+dieb	2014-01-01	Ettstraße	Pressekonferenz - Vorstellung der aktuellen Wohnungseinbruchszahlen
+dieb	2014-09-05	Werinherstraße	1540. Trickdiebe bestehlen betagte Rentnerin - Obergiesing
+raub	2014-09-06	Schleißheimer Straße	1542. Schadensträchtiger Einbruch in Möbelgeschäft - Garching-Hochbrück
+dieb	2014-09-03	Schatzbogen	1543. Autodieb festgenommen - Trudering
+dieb	2013-11-06	Stiftsbogen	Angeblicher Antiquitätenhändler bestiehlt Rentnerin
+dieb	2014-09-15	Heldstraße	Sehbehinderte Rentnerin von Trickdieb bestohlen – Neuhausen
+dieb	2014-09-19	Sonnenstraße	Ladendiebin beißt Filialleiterin in den Arm – Oberschleißheim
+raub	2014-02-02	Elritzenstraße	Handtaschenraub - Trudering
+dieb	2014-02-10	Geranienstraße	208. Einbruchsdiebstahl in einer Wohnung – Hohenbrunn/Riemerling
+dieb	2014-02-10	Müllerstraße	209. Festnahme von zwei Taschendieben in Münchner Lokal - Altstadt
+dieb	2014-04-07	Nußbaumstraße	Aufmerksames Krankenhauspflegepersonal meldet eine verdächtige Person, der aktuelle Straftaten nachgewiesen werden konnten – Ludwigsvorstadt
+überfall	2014-09-26	Helene-Wessel-Bogen	Bewaffneter Überfall auf Tankstelle – Freimann
+raub	2014-09-30	Agnes-Bernauer-Straße	Bewaffneter Raubüberfall auf Drogeriemarkt – Laim
+überfall	2014-09-30	Agnes-Bernauer-Straße	Bewaffneter Raubüberfall auf Drogeriemarkt – Laim
+dieb	2014-05-14	Grund	Zwei couragierte Bankmitarbeiter vereiteln zwei versuchte „Enkel-Trick“ Betrügereien – Altstadt und Münchner Westen
+dieb	2014-06-16	Rose-Pichler-Weg	Einbruch in eine Wohnung – Am Hart
+dieb	2014-07-05	Watzmannstraße	Einbrecher konnte festgenommen werden – Obergiesing
+dieb	2014-01-15	Hohenzollernstraße	142. Trickdiebstahl aus Juweliergeschäft – Schwabing
+raub	2014-01-29	Marsopstraße	143. Handtaschenraub in Pasing
+raub	2014-08-15	Maffeistraße	1404. Raub eines Geldbeutels – Altstadt
+dieb	2014-10-09	Max-Weber-Platz	1836. Sonnenbrille geklaut – Haidhausen
+raub	2013-11-23	Arnulfstraße	Raub nach Diskothekenbesuch - Marsfeld
+raub	2013-11-24	Gollierstraße	Versuchter Handtaschenraub; eine Person verletzt - Westend
+raub	2013-11-24	Grund	Versuchter Raub in Milbertshofen
+raub	2014-04-23	Berg-am-Laim-Straße	645. Straßenraub in Haidhausen angezeigt
+dieb	2014-04-23	Pilgersheimer Straße	648. Verwirrter Ladendieb verletzt Kaufhausdetektiv und Polizeibeamtin - Au
+raub	2014-04-24	Heinrich-Wieland-Straße	649. Raubüberfall auf Bäckerei mit Schusswaffe – Berg am Laim
+überfall	2014-04-24	Heinrich-Wieland-Straße	649. Raubüberfall auf Bäckerei mit Schusswaffe – Berg am Laim
+dieb	2013-11-11	Theresienstraße	Schadensträchtiger Einbruchdiebstahl - Maxvorstadt
+raub	2013-11-10	Landwehrstraße	Straßenraub am Hauptbahnhof
+raub	2014-10-14	Hochstraße	1862. Raubüberfall in der Au
+überfall	2014-10-14	Hochstraße	1862. Raubüberfall in der Au
+dieb	2014-10-10	Kreuzstraße	1863. Trickdiebe bestehlen Juwelier – Altstadt
+überfall	2014-05-25	Hanauer Straße	Maskierte und bewaffnete Täter überfallen Fast-Food-Filiale - Moosach
+überfall	2014-05-25	Großhaderner Straße	Zwei versuchte überfallartige Vergewaltigungen - Großhadern
+dieb	2014-05-23	Neumarkter Straße	Erfolgreicher Handtaschendieb von Berg am Laim festgenommen – Karlsfeld
+dieb	2014-02-22	Zieblandstraße	Schadensträchtiger Einbruchdiebstahl aus einem Bekleidungsgeschäft – Maxvorstadt
+raub	2014-02-12	Maximilianstraße	Raubüberfall auf Schmuckgeschäft in der Münchner Innenstadt
+überfall	2014-02-12	Maximilianstraße	Raubüberfall auf Schmuckgeschäft in der Münchner Innenstadt
+dieb	2014-07-31	Meyerbeerstraße	Rentnerin von Trickdieb bestohlen - Obermenzing
+dieb	2014-07-30	Leopoldstraße	Diebstahl aus mehreren Fahrzeugen - Milbertshofen
+dieb	2014-08-28	Pasinger Bahnhofsplatz	Ladendiebe flüchten - Pasing
+dieb	2014-08-30	Marienplatz	Festnahme eines Taschendiebes - Altstadt
+dieb	2014-08-30	Im Wismat	Versuchter Diebstahl aus einem Verkaufsstand – Täter flüchten in ein Maisfeld und werden festgenommen - Obermenzing
+dieb	2014-08-29	Jakob-Klar-Straße	Trickdiebstahl - Schwabing
+dieb	2014-09-12	Knappertsbuschstraße	1583. Rentnerin von Trickdieben in Wohnung bestohlen – „Zetteltrick“ - Englschalking
+raub	2014-09-13	Lerchenauer Straße	1584. Versuchter Handtaschenraub mit Messer - Milbertshofen
+raub	2014-04-28	Truderinger Straße	Raubüberfall auf Bäckerei – Berg am Laim
+überfall	2014-04-28	Truderinger Straße	Raubüberfall auf Bäckerei – Berg am Laim
+überfall	2014-09-25	Helene-Wessel-Bogen	Bewaffneter Überfall auf Tankstelle – Freimann
+dieb	2014-10-22	Einsteinstraße	1913. Fünf Diebstähle aus Pkw – Garching
+dieb	2014-08-01	Augustenstraße	Versuchter Diebstahl eines Rollers - Maxvorstadt
+dieb	2014-03-05	Innere	1453. Markthalleneinbrecher mittels Fingerabdruck überführt – Thalkirchen
+raub	2014-08-29	Fraunhoferstraße	Zurückliegender Handtaschenraub am Sendlinger Tor
+überfall	2014-02-06	Uhlandstraße	Lebensmittelmarkt überfallen; zwei Tatverdächtige festgenommen; ein Täter flüchtig – Aschheim
+dieb	2014-02-06	Prielmayerstraße	Ladendieb schlägt mit Schnapsflasche nach Detektiv – Maxvorstadt
+dieb	2014-07-16	Tegernseer Landstraße	1238. Trickdieb bestiehlt Rentnerin - Giesing
+raub	2014-03-20	Münchner Straße	Radfahrer wird von Lkw erfasst und schwer verletzt – Höhenkirchen-Siegertsbrunn
+dieb	2014-03-20	Hugo-Troendle-Straße	 Trickdiebe bestehlen Rentner - Moosach
+dieb	2013-11-06	Stiftsbogen	Angeblicher Antiquitätenhändler bestiehlt Rentnerin; Tatverdächtiger konnte ermittelt werden - Kleinhadern - siehe Pressebericht vom 07.11.2013, Ziffer 1822
+überfall	2014-05-12	Aidenbachstraße	Überfallartige Vergewaltigung in Mittersendling - Täter festgenommen
+dieb	2014-05-30	Angererstraße	Radldieb betätigt sich auch als Kellereinbrecher – Schwabing
+dieb	2014-05-12	Neuturmstraße	Trickdiebe entwenden Schmuckstücke aus Juweliergeschäft; Täter nachträglich identifiziert – Altstadt - siehe Pressebericht vom 13.05.2014, Ziffer 775
+dieb	2014-05-06	Pelkovenstraße	Intensivtäter erneut als Ladendieb aufgetreten - Moosach
+raub	2014-07-20	Marsstraße	Raub einer Sporttasche - Maxvorstadt
+überfall	2014-07-20	Marsstraße	Raub einer Sporttasche - Maxvorstadt
+dieb	2014-05-12	Lucile-Grahn-Straße	Schadensträchtiger Einbruch in ein asiatisches Restaurant - Haidhausen
+dieb	2014-05-12	Lenbachplatz	Zivilbeamte der Polizeiinspektion 12 (Maxvorstadt) nehmen zwei Personen nach Diebstahl fest
+dieb	2014-05-12	Neuturmstraße	Trickdiebe entwenden Schmuckstücke aus Juweliergeschäft - Altstadt
+dieb	2014-01-05	Grund	152. In München gestohlene Fahrräder werden in Österreich aufgefunden.
+raub	2014-02-01	Rotkreuzplatz	153. Versuchter Raub durch zwei unbekannte Täter – Neuhausen
+überfall	2014-02-01	Rotkreuzplatz	153. Versuchter Raub durch zwei unbekannte Täter – Neuhausen
+überfall	2014-02-01	Hardenbergstraße	155. Überfall mit Messer – Moosach
+dieb	2014-07-23	Schillerstraße	Bandenmäßiger Taschendiebstahl; vier Täter festgenommen - Ludwigsvorstadt
+raub	2014-01-24	Karwendelstraße	Wohnungseinbruch in Mittersendling
+dieb	2013-11-23	Pfisterstraße	Einbruchdiebstahl in ein Büro am Platzl
+dieb	2013-11-25	Hippelstraße	Osteuropäische Einbrecher festgenommen - Trudering
+raub	2013-12-16	Augustenstraße	Versuchter Handtaschenraub und gefährliche Körperverletzung in Neuhausen
+dieb	2014-03-15	Lochhamer Straße	Einbruchdiebstahl aus Geschäften in Einkaufszentrum – Planegg
+raub	2014-09-24	Max-Weber-Platz	Handtaschenraub nach Wiesnbesuch – Haidhausen
+dieb	2014-09-01	Küchelbäckerstraße	1501. Festnahme nach räuberischen Diebstahl – Altstadt
+dieb	2014-01-23	Innsbrucker	1502. Versuchter Einbruch in Baustelle geklärt – Berg am Laim
+überfall	2014-08-31	Elilandstraße	1503. Versuchte Vergewaltigung in Harlaching
+überfall	2014-05-19	Alemannenstraße	820. Versuchte räuberische Erpressung in Untergiesing
+raub	2014-10-11	Marbachstraße	Handtaschenraub an einer gehbehinderten Rentnerin - Mittersendling
+überfall	2014-05-25	Großhaderner Straße	Öffentlichkeitsfahndung nach versuchter überfallartiger Vergewaltigung – Großhadern - siehe Pressebericht vom 26.05.2014, Ziffer 856
+dieb	2014-07-01	Tal	Taschendiebfahnder nehmen in der Innenstadt falsche Taubstummen-Spendensammler fest
+raub	2014-07-01	Dachauer Straße	Handtaschenraub – Maxvorstadt
+dieb	2014-08-06	Bayerstraße	Festnahme eines Taschendiebes - Ludwigsvorstadt
+raub	2014-08-07	Neufahrner Straße	Radfahrer prallt gegen Pkw und verletzt sich schwer - Schäftlarn
+dieb	2014-08-06	Rosenheimer Straße	Trickdiebe entwenden wertvollen Teppich - Haidhausen
+dieb	2014-08-04	Wesendonkstraße	Seniorin von Trickdieben bestohlen - Oberföhring
+raub	2014-08-10	Arnulfstraße	Handtaschenraub - Hauptbahnhof
+raub	2014-06-24	Bayerstraße	1041. Raubüberfall auf Biergartenbesucher – Ludwigsvorstadt
+überfall	2014-06-24	Bayerstraße	1041. Raubüberfall auf Biergartenbesucher – Ludwigsvorstadt
+raub	2013-10-07	Grünwalder Straße	1042. Handtaschenraub in Harlaching aufgrund DNA-Treffer aufgeklärt
+überfall	2014-06-22	Fabinistraße	Überfall auf Taxifahrerin – Kirchtrudering
+dieb	2013-09-20	Bodenseestraße	Diebstahl aus Kraftfahrzeug durch DNA-Datenbanktreffer geklärt – Neuaubing
+raub	2014-06-02	Cannabichstraße	83-jährige Rentnerin beraubt – Untergiesing
+überfall	2014-06-02	Cannabichstraße	83-jährige Rentnerin beraubt – Untergiesing
+dieb	2014-05-24	Frauenplatz	Hochwertige Goldringe aus Juweliergeschäft ent-wendet – Altstadt
+dieb	2014-06-02	Marienplatz	Münchenweit agierender Seriendieb festgenommen – Altstadt
+dieb	2014-04-03	Mozartstraße	Festnahme nach Diebstahl aus Kfz - Ottobrunn
+dieb	2014-03-22	Odeonsplatz	Räuberischer Diebstahl eines Geldbeutels am U-Bahnhof Odeonsplatz - Altstadt
+raub	2014-02-25	Maximilianstraße	Raubüberfall auf Schmuckgeschäft in Münchner Innenstadt
+überfall	2014-02-25	Maximilianstraße	Raubüberfall auf Schmuckgeschäft in Münchner Innenstadt
+raub	2014-03-25	Westendstraße	Raubüberfall im Westend
+überfall	2014-03-25	Westendstraße	Raubüberfall im Westend
+raub	2014-01-07	Münchner Straße	Versuchter Raub auf Geldboten – Unterföhring
+überfall	2014-01-07	Münchner Straße	Versuchter Raub auf Geldboten – Unterföhring
+dieb	2014-01-06	Neumarkter Straße	Festnahme nach Diebstahl aus einem Kraftfahrzeug und Widerstand – Berg am Laim
+dieb	2013-12-19	Blodigstraße	Diebstahl aus einem Tresor; Täter mit Diebesfalle überführt – Hasenbergl
+raub	2014-09-19	Isarauen	Radfahrer stürzt und stirbt einen Tag später im Krankenhaus – Straßlach-Dingharting
+überfall	2014-09-20	Heinrich-Wieland-Straße	Tankstellenüberfall – Neuperlach
+raub	2014-09-20	Ludwigsbrücke	Touristin will in der Isar schwimmen und muss gerettet werden – Au
+raub	2014-08-29	Rosenheimer Straße	Schwerer Straßenraub; Opfer erleidet Schnittverletzung – Ramersdorf
+raub	2014-08-31	Marienplatz	Resümee des Fußballspiels der 2. Bundesliga zwischen dem TSV 1860 München und SV Darmstadt 98
+dieb	2014-08-27	Edlingerstraße	Rentner schlägt Trickdieb in die Flucht – Untergiesing
+dieb	2014-07-06	Guardinistraße	Kampagne „Gscheid radln – aufeinander achten!“ - „Weniger Radlunfälle, weniger Verletzte und 35 Fahrraddiebe!“
+raub	2014-07-18	Balanstraße	Straßenraub in Haidhausen
+raub	2013-11-03	St.-Ulrich-Straße	Handyraub in Unterschleißheim
+raub	2013-11-26	Herzogspitalstraße	Straßenraub in der Altstadt
+überfall	2013-11-26	Herzogspitalstraße	Straßenraub in der Altstadt
+raub	2014-01-18	Hirtenstraße	Raub mit Messer durch drei unbekannte Täter - Marsfeld
+überfall	2014-01-18	Hirtenstraße	Raub mit Messer durch drei unbekannte Täter - Marsfeld
+raub	2014-02-12	Maximilianstraße	Raubüberfall auf Schmuckgeschäft in der Münchner Innenstadt
+überfall	2014-02-12	Maximilianstraße	Raubüberfall auf Schmuckgeschäft in der Münchner Innenstadt
+raub	2014-07-18	St.-Paul-Straße	1217. Raub einer Geldbörse - Ludwigsvorstadt
+raub	2014-04-02	Anglerstraße	Einbrecher festgenommen - Westend
+dieb	2014-02-08	Viktualienmarkt	Exquisites Austernfrühstück - Innenstadt
+dieb	2014-04-01	Hinterbärenbadstraße	Versuchter Diebstahl aus Wohnung durch falsche Telekom-Mitarbeiter - Untersendling
+raub	2014-04-01	Schwetzingenstraße	81-jähriger Rentner beraubt und schwer verletzt - Neuaubing
+dieb	2014-10-15	Lassallestraße	Räuberischer Diebstahl mit Täterfestnahme – Fasanerie
+dieb	2014-05-20	Lohstraße	Schadensträchtige Einbrüche in zwei Wohnungen eines Mehrparteienhauses - Untergiesing
+dieb	2014-05-20	Friedrich-Eckart-Straße	Trickdiebstahl einer Goldkette - Zamdorf
+raub	2014-10-08	Münchner Straße	Krad stößt mit Pkw zusammen; eine Person schwer verletzt – Haar
+dieb	2014-10-08	Odeonsplatz	Widerstand gegen Polizeibeamte; drei Beamte verletzt– Altstadt
+dieb	2014-04-15	Herthastraße	637. Handtaschendiebstahl durch Radfahrer - Nymphenburg
+dieb	2014-01-27	Leopoldstraße	Ladendieb attackiert Kaufhausdetektiv mit Elektroschocker – Schwabing
+raub	2013-12-26	Kardinal-Faulhaber-Straße	Handtaschenraub in der Innenstadt
+raub	2013-12-12	Basler Straße	Versuchter Raub
+dieb	2013-12-11	Berg-am-Laim-Straße	Pkw-Aufbrüche in Tiefgaragen im Münchner Osten - Zeugenaufruf
+dieb	2013-11-29	Heinrich-Wieland-Straße	1946. Festnahme eines Zeitungsdiebes an Radar-Kontrollstelle - Neuperlach
+dieb	2014-08-06	Bayerstraße	Ladendieb entwendet Bekleidung und anschließend ein Fahrrad - Ludwigvorstadt
+dieb	2014-05-11	Ludwigstraße	Festnahme von zwei Radldieben in der Maxvorstadt
+raub	2014-05-10	Oberanger	Handtaschenraub in der Innenstadt
+überfall	2014-05-10	Aidenbachstraße	Versuchte überfallartige Vergewaltigung in Mittersendling
+überfall	2014-02-21	Feldmochinger	Überfall auf eine Bäckereifiliale – Fasanerie
+dieb	2013-10-05	Boschetsrieder Straße	Drei Festnahmen von Dieben - Couragierte Zeugin belobigt
+dieb	2013-11-14	Ottilienstraße	Versuchter Wohnungseinbruchsdiebstahl in Trudering
+dieb	2014-05-10	Sonnenstraße	Räuberischer Diebstahl eines Mobiltelefons – Innenstadt
+raub	2013-06-27	Werner-Egk-Bogen	Brutaler Raub zum Nachteil eines Rentners in Freimann aufgeklärt; zwei rumänische Tatverdächtige in Haft
+raub	2013-12-19	Hechtseestraße	95-jährige Seniorin beraubt – Ramersdorf
+dieb	2013-12-19	Dachauer Straße	56-jähriger Wohnsitzloser entwendet BMX-Rad – Moosach
+raub	2014-08-27	Brudermühlstraße	1467. Raub von Bargeld – Mittersendling
+dieb	2014-08-21	Adolf-Kolping-Straße	1471. Räuberischer Diebstahl eines Smartphones – Ludwigsvorstadt
+dieb	2014-08-27	Senftenauerstraße	1472. Trickdiebstahl z.N. einer 83-Jährigen – Kleinhadern
+dieb	2014-08-28	Thalkirchner Straße	1473. Festnahme von zwei Buntmetalldieben – Thalkirchen
+dieb	2014-05-05	Marienplatz	Handtaschendieb festgenommen – Hauptbahnhof
+raub	2014-05-05	Frankfurter Ring	Raub eines Handys im U-Bahnhof Frankfurter Ring
+überfall	2014-05-05	Frankfurter Ring	Raub eines Handys im U-Bahnhof Frankfurter Ring
+dieb	2014-09-14	Feichtstraße	Festnahme von zwei Radldieben - Neuperlach
+dieb	2014-09-16	Weißenseestraße	Diebstahl einer Geldbörse; Täter festgenommen - Giesing
+raub	2014-04-09	Weißenseestraße	Straßenraub in Giesing
+raub	2014-02-20	Münchner Straße	Schwerer Verkehrsunfall nach Vorfahrtsmissachtung - Unterhaching
+raub	2014-03-06	Lochhamer Straße	464. Veröffentlichung eines Täterbildes zum Bankraub in Martinsried am 06.03.2014
+dieb	2014-03-21	Schillerstraße	465. Festnahme nach Diebstahl aus einem Pkw - Ludwigvorstadt
+dieb	2014-05-03	De-la-Paz-Straße	Zwei Trickdiebstähle durch „Glas-Wasser-Trick“ – Nymphenburg und Isarvorstadt
+dieb	2014-05-03	Tegernseer Landstraße	Räuberischer Diebstahl an Tankstelle – Obergiesing
+raub	2014-08-19	Katharina-von-Bora-Straße	1423. Raub einer Handtasche – Maxvorstadt
+dieb	2014-07-17	Watzmannstraße	1291. Trickdiebstahl zum Nachteil eines Rentners - Obergiesing
+raub	2014-04-11	Candidplatz	600. Zwei Raubüberfälle; Täter festgenommen - Untergiesing
+dieb	2013-10-23	Prielmayerstraße	Gewalttätiger Ladendieb - Maxvorstadt
+dieb	2014-02-20	Liebigstraße	Schadensträchtiger Einbruchdiebstahl im Lehel
+dieb	2014-09-25	Adalbertstraße	Trickdiebstahl in einem Schmuckgeschäft – Maxvorstadt
+dieb	2014-06-27	Tal	1074. Festnahme von zwei Taschendieben – Altstadt
+dieb	2014-06-29	Grund	1077. Trickdiebstahl – Lochhausen
+dieb	2014-06-27	Heidemannstraße	1080. Polizeibeamte werden mit Eisenstange bedroht; Täter festgenommen – Freimann
+raub	2013-12-23	Rotkreuzplatz	Straßenraub in Neuhausen
+dieb	2013-12-26	Agnesstraße	Einbrecher festgenommen – Schwabing-West
+dieb	2014-07-27	Landsberger Straße	Festnahme eines Fahrraddiebes - Westend
+raub	2014-06-16	Bad-Schachener-Straße	Raub einer Umhängetasche; eine Person schwer verletzt - Berg am Laim
+dieb	2013-12-18	Dorfstraße	Wohnungseinbruch in Taufkirchen; zwei Tatverdächtige festgenommen
+raub	2013-05-19	Christoph-von-Gluck-Platz	Raub auf Taxifahrer aus dem Jahr 2013 nachträglich durch DNA-Treffer geklärt – Pressebericht-Nr. 714 aus dem Jahr 2013
+dieb	2014-06-12	Candidstraße	Festnahme von 3 Jugendlichen wegen Diebstahls  von zwei Kleinkrafträdern - Obergiesing
+dieb	2014-06-13	Ettstraße	Täterin nach Trickdiebstahl festgenommen - Freimann
+raub	2012-10-28	Lindwurmstraße	Raub einer Tasche – Opfer erkennt den Täter - Isarvorstadt
+dieb	2014-05-20	Grund	848. Polizei ermittelt tierischen Ringdieb – Pasing
+dieb	2014-04-23	Adelheidstraße	Bestohlener Fahrradbesitzer führt Polizei zum Fahrraddieb - Schwabing
+dieb	2013-11-23	Platzl	Einbruchsdiebstahl in ein Büro am Platzl – Täter identifiziert
+raub	2014-02-09	Anhalter Platz	Raub eines Kopfhörers
+überfall	2014-02-09	Anhalter Platz	Raub eines Kopfhörers
+dieb	2014-09-08	Wolfratshauser Straße	Festnahme von drei Radldieben - Ebenhausen
+raub	2013-11-27	Ernst-von-Romberg-Straße	Wohnungseinbrecher auf frischer Tat festgenommen – Untermenzing
+dieb	2013-03-16	Ehrenbürgstraße	Drei Kfz-Aufbrüche anhand DNA-Treffer geklärt – Stadtgebiet München
+überfall	2014-05-27	Einsteinstraße	Versuchte Vergewaltigung; Festnahme eines Tatverdächtigen – Steinhausen
+dieb	2013-06-09	Donnersbergerbrücke	Versuchter Wohnmobildiebstahl geklärt – Neuhausen
+dieb	2013-11-20	Grund	Schadensträchtiger Einbruchdiebstahl in Sauerlach
+raub	2013-11-20	Thomas-Dehler-Straße	Raub einer Laptop-Tasche - Neuperlach
+dieb	2013-06-18	Zentralländstraße	Diebstahl aus einem Kraftfahrzeug nachträglich nach einem DNA-Datenbanktreffer geklärt
+dieb	2014-05-27	Rosental	Trickdieb in einem Warenhaus aufgetreten – Altstadt
+dieb	2014-10-05	Theresienwiese	Taschendieb in Bierzelt festgenommen
+dieb	2014-10-05	Maximilianstraße	Taschendiebstahl in der Altstadt
+dieb	2014-01-21	Hanauer Straße	107. Ladendieb entwendet 43 Flaschen Schnaps - Innenstadt
+dieb	2014-01-21	Krokusstraße	109. Trickdiebin aufgetreten - Hadern
+raub	2014-03-23	Karl-Marx-Ring	Schwerer Raub auf Hotel - Neuperlach
+dieb	2013-12-05	Einsteinstraße	Kabeldiebstahl im Stadtgebiet – drei Tatverdächtige festgenommen
+dieb	2014-08-13	Schillerstraße	1380. Festnahme eines Handy-Diebes - Ludwigsvorstadt
+raub	2014-06-01	Marienplatz	Handyraub in U-Bahn – Altstadt
+dieb	2014-09-21	Lindwurmstraße	Diebstahl eines Motorrollers; eine Person festgenommen – Sendling
+dieb	2013-07-23	Eduard-Schmid-Straße	Diebstahl aus Pkw mittels Fingerabdrücken geklärt – Au
+dieb	2014-09-22	Englischer Garten	Betrunkener Taxidieb festgenommen
+dieb	2014-06-05	Rotkreuzplatz	Diebstahl aus Wohnung – Neuhausen
+dieb	2014-06-12	Friedenstraße	Betrunkener Fahrraddieb gerät in Polizeikontrolle – Berg am Laim
+dieb	2013-11-19	Kravogelstraße	Häufung von Einbrüchen im Bereich Am Hart, Neuaubing, Neuhausen
+dieb	2013-11-11	Candidplatz	Taschendiebe bestehlen mittels „Stadtplantrick“ zwei Rentnerinnen - Untergiesing
+raub	2014-05-06	Frankfurter Ring	Festnahme nach Handyraub im U-Bahnhof Frank-furter Ring
+überfall	2014-05-06	Frankfurter Ring	Festnahme nach Handyraub im U-Bahnhof Frank-furter Ring
+dieb	2014-02-10	Reichenaustraße	Trickdiebin in Neuaubing
+raub	2014-10-03	Institutstraße	Straßenraub nach Oktoberfestbesuch – Pasing
+dieb	2014-09-25	Nordendstraße	Diebe entwenden Schmuck aus Juweliergeschäft – Schwabing-West
+raub	2014-01-23	Siegenburger Straße	Polizeilicher Verlauf des Basketballspiels FC Bayern München gegen Galatasaray Istanbul
+dieb	2014-09-05	Bodenseestraße	Festnahme von vier Radldieben in Pasing
+raub	2014-09-06	Camerloherstraße	Einbruch in einem Getränkemarkt - Ismaning
+dieb	2014-02-13	Landshuter	Geschwindigkeitskontrolle führt zur Festnahme illegal eingereiste Personen - Neuhausen
+dieb	2013-10-24	Grund	Gefährliche Körperverletzung durch zwei Jugendliche
+dieb	2013-12-04	Heidemannstraße	Einbrecher in Freimann festgenommen
+überfall	2014-05-25	Heiglhofstraße	Täterfestnahme nach versuchter überfallartiger Vergewaltigung – Großhadern
+dieb	2014-06-30	Theatinerstraße	Trickdieb entwendet wertvolle Halskette aus Juweliergeschäft – Altstadt
+raub	2014-06-18	Gotthardstraße	1010. Raubüberfall auf einen Geldboten in Laim
+überfall	2014-06-18	Gotthardstraße	1010. Raubüberfall auf einen Geldboten in Laim
+raub	2013-12-30	Alpenveilchenstraße	Versuchter Raub einer Handtasche – Kleinhadern
+raub	2014-05-22	Berg-am-Laim-Straße	Handtaschenraub in Berg am Laim
+dieb	2013-11-22	Grund	Einbruchdiebstahl in Reihenhaus
+dieb	2013-11-17	Hans-Sachs-Straße	Räuberischer Diebstahl in Lokal
+raub	2014-07-08	Münchner Straße	1142. 88-jähriger Rentner unterkühlt aufgefunden – Ismaning
+dieb	2014-07-20	Balanstraße	1226. Festnahme eines Fahrraddiebes - Obergiesing
+dieb	2014-07-19	Neuhauser Straße	1229. Ladendiebstahl mit Waffe - Altstadt
+dieb	2014-07-18	St.-Martin-Straße	1230. Räuberischer Diebstahl an Paketauslieferer - Ramersdorf
+dieb	2014-03-30	Bad-Schachener-Straße	Betrunkener Radldieb festgenommen - Ramersdorf
+raub	2014-06-10	Fürstenrieder Straße	Streit zwischen Radfahrer und Fußgänger führt zu Raub eines Handys - Laim
+raub	2014-01-05	Seidlstraße	Straßenraub in der Maxvorstadt
+raub	2014-01-09	Hermann-Vogel-Straße	Handtaschenraub – Freimann
+raub	2011-12-22	Einsteinstraße	1610. Besonders schwerer Fall des Diebstahls aus einem Kraftfahrzeug geklärt
+dieb	2011-12-22	Einsteinstraße	1610. Besonders schwerer Fall des Diebstahls aus einem Kraftfahrzeug geklärt
+raub	2013-11-12	Perlacher	Versuchter Raub im PEP - Neuperlach
+dieb	2013-12-21	Grund	Schwerer Bandendiebstahl - Harlaching
+dieb	2014-01-30	Birketweg	Einbruch in Büro mit anschließendem Pkw-Diebstahl und mehreren Unfallfluchten geklärt – Neuhausen
+raub	2014-06-23	Viktualienmarkt	Bewaffneter Raubüberfall auf Goldgeschäft
+überfall	2014-06-23	Viktualienmarkt	Bewaffneter Raubüberfall auf Goldgeschäft
+raub	2014-08-27	Bayerstraße	Straßenraub unter Jugendlichen; zwei Tatverdächtige festgenommen – Innenstadt
+raub	2014-05-18	Grund	837. Büroeinbrecher zwei Tage nach der Tat festgenommen
+dieb	2014-05-20	Schleißheimer Straße	Bande von Ladendieben entwendeten in Schwabing teure Parfums
+dieb	2014-05-12	Drygalski-Allee	26-Jähriger wegen zweier Diebstähle in Elektromarkt festgenommen
+raub	2013-12-18	Kreillerstraße	Versuchter Raub auf Taxifahrer; vier Tatverdächtige festgenommen – Berg am Laim
+raub	2014-08-11	Schwanthalerstraße	1374. Versuchter Straßenraub – Ludwigsvorstadt
