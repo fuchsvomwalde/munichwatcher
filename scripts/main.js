@@ -117,7 +117,7 @@
             };
 
             var image = 'img/mapcamNew.svg';
-            addMarker(newCam, image, true);
+            addCamMarker(newCam, image, true);
         };
     }
 
@@ -129,7 +129,8 @@
         aAnimIn = document.querySelectorAll('.animation-init');
         language = document.getElementById('language-setting');
 
-        oContent.style.height = window.innerHeight;
+        oContent.style.height = window.innerHeight + 'px';
+        oContent.height = window.innerHeight + 'px';
 
         // var worker = new Worker('scripts/renderer.js');
         // worker.addEventListener('message', function(e) {
@@ -211,7 +212,12 @@
         var image = 'img/mapcam.svg';
         for (var i = 0; i < camData.length; i++) {
             var cam = camData[i];
-            addMarker(cam, image, false);
+            addCamMarker(cam, image, false);
+        };
+        var imageCrime = 'img/crimeMarker.svg';
+        for (var i = 0; i < crimeData.length; i++) {
+            var crime = crimeData[i];
+            addCrimeMarker(crime, imageCrime, false);
         };
         heatmap.setMap(map);
     }
@@ -222,7 +228,31 @@
         }
     }
 
-    function addMarker(cam, image, animated) {
+    function addCrimeMarker(crime, image, animated) {
+        animated = animated ? google.maps.Animation.DROP : null;
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(crime.lat, crime.lng),
+            map: map,
+            icon: image,
+            title: crime.owner,
+            draggable: false,
+            animation: animated
+        });
+
+        marker.info = new google.maps.InfoWindow({
+            content: '<div class="popup-marker"><h2>' + crime.type.toUpperCase() + '</h2>' +
+                '<div><b>Datum:</b><p>' + crime.time + '</p></div>' +
+                '<div><b>Beschreibung:</b><p>' + crime.title + '</p></div>' +
+                '</div>'
+        });
+        infoWindows.push(marker.info);
+        google.maps.event.addListener(marker, 'click', function() {
+            closeAllInfoWindows();
+            marker.info.open(map, marker);
+        });
+    }
+
+    function addCamMarker(cam, image, animated) {
         animated = animated ? google.maps.Animation.DROP : null;
         var marker = new google.maps.Marker({
             position: new google.maps.LatLng(cam.lat, cam.lng),
@@ -237,17 +267,28 @@
         var realtime = cam.realtime ? "Ja" : "Nein";
         var oR = cam.objectRecognition ? "Ja" : "Nein";
 
+
+        // traffic= Verkehrsüberwachtung
+        // publicSecurity = öffentliche Sicherheit
+        // propertySec = Objektschutz
+        // other= Sonstiges
+        var category = '';
+        if(cam.category.indexOf("publicSecurity") > -1) category += "<i class='icon-shield'></i><span>Öffentliche Sicherheit</span>";
+        if(cam.category.indexOf("traffic") > -1) category += "<i class='icon-road'></i><span>Verkehrsüberwachtung</span>";
+        if(cam.category.indexOf("propertySec") > -1) category += "<i class='icon-building'></i><span>Objektschutz</span>";
+        if(cam.category.indexOf("other") > -1) category += "<i class='icon-eye2'></i><span>Sonstiges</span>";
+
         marker.info = new google.maps.InfoWindow({
             content: '<div class="popup-marker"><h2>' + cam.owner + '</h2>' +
-                '<div><b>Adresse:</b><p>' + cam.adress + '</p></div>' +
-                '<div><b>Anzahl Kameras:</b><p>' + cam.count + '</p></div>' +
-                '<div><b>Kategorie</b><p>' + cam.category + '</p></div>' +
-                '<div><b>Audiofähig:</b><p>' + audio + '</p></div>' +
-                '<div><b>Echtzeitübertragung:</b><p>' + realtime + '</p></div>' +
-                '<div><b>Objekterkennung:</b><p>' + oR + '</p></div>' +
+                '<div><b>Adresse:</b><span>' + cam.adress + '</span></div>' +
+                '<div><b>Anzahl Kameras:</b><span>' + cam.count + '</span></div>' +
+                '<div><b>Kategorie:</b><span>' + category + '</span></div>' +
+                '<div><i class="icon-audio"></i><b>Audiofähig:</b><span>' + audio + '</span></div>' +
+                '<div><i class="icon-realtime"></i><b>Echtzeitübertragung:</b><span>' + realtime + '</span></div>' +
+                '<div><i class="icon-target"></i><b>Objekterkennung:</b><span>' + oR + '</span></div>' +
                 '</div>'
         });
-        infoWindows.push(marker.info); 
+        infoWindows.push(marker.info);
         google.maps.event.addListener(marker, 'click', function() {
             closeAllInfoWindows();
             marker.info.open(map, marker);
@@ -344,7 +385,8 @@
         canvas.width = width;
         canvas.height = height;
 
-        oContent.style.height = height;
+        oContent.style.height = height + 'px';
+        oContent.height = height + 'px';
     }
 
     function toggle(reveal) {
@@ -502,26 +544,26 @@
     //     lat: 48.16166,
     //     lng: 11.57496
     // }];
-    var camData = [{
-        owner: 'Staat',
-        adress: 'ghjsdgjhfgsdjhfbkjs',
-        count: 10,
-        category: 'Traffic',
-        audio: true,
-        realtime: false,
-        objectRecognition: true,
-        lat: 48.1351253,
-        lng: 11.5819806
-    }, {
-        img: 'base64',
-        owner: 'Staat',
-        adress: 'ghjsdgjhfgsdjhfbkjs',
-        count: 10,
-        category: 'Traffic',
-        audio: true,
-        realtime: false,
-        objectRecognition: true,
-        lat: 48.1355553,
-        lng: 11.5839806
-    }];
+    // var camData = [{
+    //     owner: 'Staat',
+    //     adress: 'ghjsdgjhfgsdjhfbkjs',
+    //     count: 10,
+    //     category: 'Traffic',
+    //     audio: true,
+    //     realtime: false,
+    //     objectRecognition: true,
+    //     lat: 48.1351253,
+    //     lng: 11.5819806
+    // }, {
+    //     img: 'base64',
+    //     owner: 'Staat',
+    //     adress: 'ghjsdgjhfgsdjhfbkjs',
+    //     count: 10,
+    //     category: 'Traffic',
+    //     audio: true,
+    //     realtime: false,
+    //     objectRecognition: true,
+    //     lat: 48.1355553,
+    //     lng: 11.5839806
+    // }];
 })();

@@ -36,8 +36,10 @@ body {background: #dddddd; -webkit-font-smoothing: antialiased; font-smoothing: 
 
 .popup-marker {font-size: .8rem;}
 .popup-marker div {padding: 5px;}
-.popup-marker b {display: inline; padding-right: 3px;}
-.popup-marker p {font-weight: 600; display: inline;}
+.popup-marker b {display: inline; padding-right: 5px;}
+.popup-marker i {padding-right: 5px;}
+.popup-marker span {font-weight: 600; display: inline;}
+.popup-marker p {font-weight: 600;}
 
 body.revealed .app {opacity: 0;}
 
@@ -67,7 +69,7 @@ body.revealed header .subtitle {display: none;}
   .icon-github, .icon-linkedin {margin-left: 5px;}
 }
 
-#content {position: relative; width: 100%; height: 900px; opacity: 0; -webkit-transform: translateY(100%) scale(0.9); transform: translateY(100%) scale(0.9);  z-index: 1;}
+#content {position: relative; width: 100%; opacity: 0; -webkit-transform: translateY(100%) scale(0.9); transform: translateY(100%) scale(0.9);  z-index: 1;}
 #svg-face {display: block; margin: 25px auto;}
 
 #map-canvas {height: 100%; width: 100%; margin: 0px; padding: 0px; position: absolute; z-index: 50;}
