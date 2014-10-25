@@ -134,7 +134,7 @@
   {
     "owner":"Parkcafé, Pächter",
     "adress":"Sophienstraße 7 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -145,7 +145,7 @@
   {
     "owner":"Fitnesscenter, Geschäftsleitung",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"false",
@@ -156,7 +156,7 @@
   {
     "owner":"Justiz München, Herzogspitalstraße 12, StMJV",
     "adress":"Herzogspitalstraße 12",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"false",
@@ -167,7 +167,7 @@
   {
     "owner":"Galeristraße 4a, Deutsches Theamtermuseum",
     "adress":"Galeriestraße 4a",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"false",
@@ -178,7 +178,7 @@
   {
     "owner":"Residenzstraße 1, Staatliche Münzsammlung",
     "adress":"Residenzstraße 1",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"false",
@@ -189,7 +189,7 @@
   {
     "owner":"Gaststätte, Geschäftsleitung",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -200,7 +200,7 @@
   {
     "owner":"Lebensmittelhandel, Geschäftsleitung",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -211,7 +211,7 @@
   {
     "owner":"Gaststätte, Geschäftsleitung",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -222,7 +222,7 @@
   {
     "owner":"Technikmarkt, Geschäftsleitung",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -233,7 +233,7 @@
   {
     "owner":"Arnulfstraße 1, PP München",
     "adress":"Arnulfstraße 1",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -244,7 +244,7 @@
   {
     "owner":"Bayerstraße 35 - 37, PP München",
     "adress":"Bayerstraße 35 - 37",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -255,7 +255,7 @@
   {
     "owner":"Rechnerstraße 11 z, PP München",
     "adress":"Rechnerstraße 11 z",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -266,7 +266,7 @@
   {
     "owner":"Romanstraße 13, PP München",
     "adress":"Romanstraße 13",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -277,7 +277,7 @@
   {
     "owner":"Eckbau Nord Winzererstr. 9, StMAS",
     "adress":"Winzererstr 9",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -288,7 +288,7 @@
   {
     "owner":"Eckbau Süd Winzererstr. 9, StMAS",
     "adress":"Winzererstr 9",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -299,7 +299,7 @@
   {
     "owner":"Heßstr. 104, StMAS",
     "adress":"Heßstr. 104",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -310,7 +310,7 @@
   {
     "owner":"Justiz München, Arnulfstraße 16-18, StMJV",
     "adress":"Arnulfstr. 16-18",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -321,7 +321,7 @@
   {
     "owner":"Justiz München, Seidelstraße 8, StMJV",
     "adress":"Seidelstraße 8",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -332,7 +332,7 @@
   {
     "owner":"Dienstgebäude, LfU",
     "adress":"Heßstraße 128 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -343,7 +343,7 @@
   {
     "owner":"Klinikum Großhadern Pforte Haupteingang, Klinikum der Universität München",
     "adress":"Marchioninistraße 15",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -354,7 +354,7 @@
   {
     "owner":"Innenstadt Frauenklinik, Klinikum der Universität München",
     "adress":"Maistraße 11 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -365,7 +365,7 @@
   {
     "owner":"Innenstadt Mund Kiefer Gesichtschirurgie, Klinikum der Universität München",
     "adress":"Lindwurmstraße 2 a",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -376,7 +376,7 @@
   {
     "owner":"Innenstadt Kinderklinik, Klinikum der Universität München",
     "adress":"Lindwurmstr. 4 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -387,7 +387,7 @@
   {
     "owner":"Innenstadt Poliklinik, Klinikum der Universität München",
     "adress":"Ziemssenstraße 1",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -398,7 +398,7 @@
   {
     "owner":"HKW Freimann, ",
     "adress":"Frankfurter Ring 179",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -409,7 +409,7 @@
   {
     "owner":"Finanzgericht München, FG München",
     "adress":"Ismaninger Straße 95",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -420,7 +420,7 @@
   {
     "owner":"BayLfSt, BayLfSt",
     "adress":"Sophienstraße 6 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -431,7 +431,7 @@
   {
     "owner":"BayLfSt, BayLfSt",
     "adress":"Sophienstraße 6 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -442,7 +442,7 @@
   {
     "owner":"BayLfSt, BayLfSt",
     "adress":"Sophienstraße 6 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":1,
     "audio":"false",
     "realtime":"true",
@@ -453,7 +453,7 @@
   {
     "owner":"Taxizentrale, Geschäftsleitung",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"false",
@@ -464,7 +464,7 @@
   {
     "owner":"Büroräume, Geschäftsleitung",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"false",
@@ -475,7 +475,7 @@
   {
     "owner":"Justiz München, Infanteriestraße 9, StMJV",
     "adress":"Infanteriestraße 9",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"false",
@@ -486,7 +486,7 @@
   {
     "owner":"Gaststätte, Geschäftsleitung",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -497,7 +497,7 @@
   {
     "owner":"Orleansstr. 34, BLKA",
     "adress":"Orleansstr. 34",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -508,7 +508,7 @@
   {
     "owner":"Dienstgebäude, Polizei",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -519,7 +519,7 @@
   {
     "owner":"Handelsunternehmen, Vorstand",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -530,7 +530,7 @@
   {
     "owner":"Am Neudeck, PP München",
     "adress":"Am Neudeck",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -541,7 +541,7 @@
   {
     "owner":"Festwiesnwache, PP München",
     "adress":"Festwiesnwache",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -552,7 +552,7 @@
   {
     "owner":"Freiligrathstraße 81, PP München",
     "adress":"Freiligrathstraße 81",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -563,7 +563,7 @@
   {
     "owner":"Hofkurat-Diehl-Straße 9, PP München",
     "adress":"Hofkurat-Diehl-Straße 9",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -574,7 +574,7 @@
   {
     "owner":"Rapotostraße 1, PP München",
     "adress":"Rapotostraße 1",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -585,7 +585,7 @@
   {
     "owner":"Winzererstraße 54, PP München",
     "adress":"Winzererstraße 54",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -596,7 +596,7 @@
   {
     "owner":"Dienstgebäude VPI FFB, Polizei",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -607,7 +607,7 @@
   {
     "owner":"Katharina-von-Bora-Straße 10, Zentralinstitut für Kunstgeschichte",
     "adress":"Katharina-von-Bora-Straße 10",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -618,7 +618,7 @@
   {
     "owner":"Großhadern Nordpforte, Klinikum der Universität München",
     "adress":"Marchioninistraße 15",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -629,7 +629,7 @@
   {
     "owner":"Innenstadt Med. Klinik, Klinikum der Universität München",
     "adress":"Ziemssenstraße 1",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -640,7 +640,7 @@
   {
     "owner":"Hauptmünzamt, StMF",
     "adress":"Zamdorfer Straße 92",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -651,7 +651,7 @@
   {
     "owner":"FA München, BayLfSt",
     "adress":"Prinz-Ludwig-Straße 1 – 3",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":2,
     "audio":"false",
     "realtime":"true",
@@ -662,7 +662,7 @@
   {
     "owner":"Ludwigstraße 28, Ludwig-Maximilians-Universität",
     "adress":"Ludwigstraße 28",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"false",
@@ -673,7 +673,7 @@
   {
     "owner":"Palais Pinakothek, Staatsgemäldesammlungen",
     "adress":"Türkenstraße 4 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"false",
@@ -684,7 +684,7 @@
   {
     "owner":"FA München, BayLfSt",
     "adress":"Karlstraße 9 - 11 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"false",
@@ -695,7 +695,7 @@
   {
     "owner":"Maximilianeum, Bayer. Landtag",
     "adress":"Max-Planck-Str. 1",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -706,7 +706,7 @@
   {
     "owner":"Bad-Schachener Straße 4, PP München",
     "adress":"Bad-Schachener Straße 4",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -717,7 +717,7 @@
   {
     "owner":"Institutsstraße 1, PP München",
     "adress":"Institutsstraße 1",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -728,7 +728,7 @@
   {
     "owner":"Leuchtenbergstraße 1, PP München",
     "adress":"Leuchtenbergstraße 1",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -739,7 +739,7 @@
   {
     "owner":"Trautenwolfstraße 4, PP München",
     "adress":"Trautenwolfstraße 4",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -750,7 +750,7 @@
   {
     "owner":"Adenauerring 31, PP München",
     "adress":"Adenauerring 31",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -761,7 +761,7 @@
   {
     "owner":"Moosacher Straße 77, PP München",
     "adress":"Moosacher Straße 77",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -772,7 +772,7 @@
   {
     "owner":"Ottobrunner Straße 7, PP München",
     "adress":"Ottobrunner Straße 7",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -783,7 +783,7 @@
   {
     "owner":"Schellingstr. 155, StMAS",
     "adress":"Schellingstr. 155",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -794,7 +794,7 @@
   {
     "owner":"Aufnahmeeinrichtung für Asylbewerber, Regierung von Oberbayern",
     "adress":"Heidemannstr. 50",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -805,7 +805,7 @@
   {
     "owner":"Justiz München, Infanteriestraße 5, StMJV",
     "adress":"Infanteriestraße 5",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -816,7 +816,7 @@
   {
     "owner":"Innenstadt Chirurgie, Klinikum der Universität München",
     "adress":"Nußbaumstraße 20",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -827,7 +827,7 @@
   {
     "owner":"Volksbad, SWM GmbH, Bäder",
     "adress":"Rosenheimer Straße 1",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -838,7 +838,7 @@
   {
     "owner":"Olympia-Schwimmhalle, SWM GmbH, Bäder",
     "adress":"Coubertinplatz ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -849,7 +849,7 @@
   {
     "owner":"AWM Betriebsgelände, Abfallwirtschaftsbetrieb München",
     "adress":"Georg-Brauchle-Ring 29 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":3,
     "audio":"false",
     "realtime":"true",
@@ -860,7 +860,7 @@
   {
     "owner":"Technikhandel, Geschäftsleitung",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":4,
     "audio":"false",
     "realtime":"true",
@@ -871,7 +871,7 @@
   {
     "owner":"Johann-Fichte-Straße 5, PP München",
     "adress":"Johann-Fichte-Straße 5",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":4,
     "audio":"false",
     "realtime":"true",
@@ -882,7 +882,7 @@
   {
     "owner":"Beethovenstraße 5, PP München",
     "adress":"Beethovenstraße 5",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":4,
     "audio":"false",
     "realtime":"true",
@@ -893,7 +893,7 @@
   {
     "owner":"Tölzer Straße 34, PP München",
     "adress":"Tölzer Straße 34",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":4,
     "audio":"false",
     "realtime":"true",
@@ -904,7 +904,7 @@
   {
     "owner":"Hauptgebäude Winzererstr. 9, StMAS",
     "adress":"Winzererstr 9",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":4,
     "audio":"false",
     "realtime":"true",
@@ -915,7 +915,7 @@
   {
     "owner":"Justiz München (LG II, OLG), Denisstraße 3, StMJV",
     "adress":"Denisstraße 3",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":4,
     "audio":"false",
     "realtime":"true",
@@ -926,7 +926,7 @@
   {
     "owner":"OLG,Schleißheimerstraße 139, StMJV",
     "adress":"Schleißheimerstraße 139",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":4,
     "audio":"false",
     "realtime":"true",
@@ -937,7 +937,7 @@
   {
     "owner":"Dantebad, SWM GmbH, Bäder",
     "adress":"Postillonstraße 17",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":4,
     "audio":"false",
     "realtime":"true",
@@ -948,7 +948,7 @@
   {
     "owner":"Lothstraße 34, Hochsch. für angewandte Wissenschaften",
     "adress":"Lothstraße 34",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":5,
     "audio":"false",
     "realtime":"false",
@@ -959,7 +959,7 @@
   {
     "owner":"Werner-Eckert-Straße 12, PP München",
     "adress":"Werner-Eckert-Straße 12",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":5,
     "audio":"false",
     "realtime":"true",
@@ -970,7 +970,7 @@
   {
     "owner":"Treffauerstraße 56, PP München",
     "adress":"Treffauerstraße 56",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":5,
     "audio":"false",
     "realtime":"true",
@@ -981,7 +981,7 @@
   {
     "owner":"Oberste Baubehörde, Oberste Baubehörde",
     "adress":"Franz-Josef-Strauß-Ring 4 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":6,
     "audio":"false",
     "realtime":"true",
@@ -992,7 +992,7 @@
   {
     "owner":"Tegernseer Landstraße 210, PP München",
     "adress":"Tegernseer Landstraße 210",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":6,
     "audio":"false",
     "realtime":"true",
@@ -1003,7 +1003,7 @@
   {
     "owner":"Nordbad, SWM GmbH, Bäder",
     "adress":"Schleißheimer Straße 142",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":6,
     "audio":"false",
     "realtime":"true",
@@ -1014,7 +1014,7 @@
   {
     "owner":"Michaelibad, SWM GmbH, Bäder",
     "adress":"Heinrich-Wieland-Straße 24",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":6,
     "audio":"false",
     "realtime":"true",
@@ -1025,7 +1025,7 @@
   {
     "owner":"Stadtwerkszentrale, SWM GmbH",
     "adress":"Emmy-Noether-Straße 2",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":6,
     "audio":"false",
     "realtime":"true",
@@ -1036,7 +1036,7 @@
   {
     "owner":"Dienstgebäude, Landratsamt München",
     "adress":"Mariahilfplatz 17 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":6,
     "audio":"false",
     "realtime":"true",
@@ -1047,7 +1047,7 @@
   {
     "owner":"Prinzregentenplatz 16, PP München",
     "adress":"Prinzregentenplatz 16",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":7,
     "audio":"false",
     "realtime":"true",
@@ -1058,7 +1058,7 @@
   {
     "owner":"Westbad, SWM GmbH, Bäder",
     "adress":"Weinbergerstraße 11",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":7,
     "audio":"false",
     "realtime":"true",
@@ -1069,7 +1069,7 @@
   {
     "owner":"Heizkraftwerk Nord, ",
     "adress":"Münchner Str. 22 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":7,
     "audio":"false",
     "realtime":"true",
@@ -1080,7 +1080,7 @@
   {
     "owner":"Am Stadtpark 20, Hochsch. für angewandte Wissenschaften",
     "adress":"Am Stadtpark 20",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":8,
     "audio":"false",
     "realtime":"false",
@@ -1091,7 +1091,7 @@
   {
     "owner":"Justiz München, Prielmayerstraße 5, StMJV",
     "adress":"Prielmayerstr. 5",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":8,
     "audio":"false",
     "realtime":"true",
@@ -1102,7 +1102,7 @@
   {
     "owner":"Alter Hof 2, Bayerisches Landesamt für Denkmalpflege",
     "adress":"Alter Hof 2",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":8,
     "audio":"false",
     "realtime":"true",
@@ -1113,7 +1113,7 @@
   {
     "owner":"Bibliothek, Technische Universität München",
     "adress":"Maria-Theresia-Straße 23",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":8,
     "audio":"false",
     "realtime":"true",
@@ -1124,7 +1124,7 @@
   {
     "owner":"GH Laim, MGH",
     "adress":"Gollierstraße 70 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":9,
     "audio":"false",
     "realtime":"false",
@@ -1135,7 +1135,7 @@
   {
     "owner":"Prinzregentenstadion, SWM GmbH, Bäder",
     "adress":"Prinzregentenstraße 80",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":9,
     "audio":"false",
     "realtime":"true",
@@ -1146,7 +1146,7 @@
   {
     "owner":"Landshuter Allee 38, PP München",
     "adress":"Landshuter Allee 38",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":10,
     "audio":"false",
     "realtime":"true",
@@ -1157,7 +1157,7 @@
   {
     "owner":"Ludwigstraße 2, 80539 München, StMELF",
     "adress":"Ludwigstr. 2",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":10,
     "audio":"false",
     "realtime":"true",
@@ -1168,7 +1168,7 @@
   {
     "owner":"Justiz München, Nymphenburgerstraße 16, StMJV",
     "adress":"Nymphenburgerstraße 16",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":11,
     "audio":"false",
     "realtime":"true",
@@ -1179,7 +1179,7 @@
   {
     "owner":"Justiz München, Linprunstraße 25, StMJV",
     "adress":"Linprunstraße 25",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":11,
     "audio":"false",
     "realtime":"true",
@@ -1190,7 +1190,7 @@
   {
     "owner":"LG, StMJ, OLG, Prielmayerstraße 7, München, StMJV",
     "adress":"Prielmayerstr. 7",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":12,
     "audio":"false",
     "realtime":"true",
@@ -1201,7 +1201,7 @@
   {
     "owner":"StMF, StMF",
     "adress":"Odeonsplatz 4 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":12,
     "audio":"false",
     "realtime":"true",
@@ -1223,7 +1223,7 @@
   {
     "owner":"SG München Gerichtsgebäude Richelstraße, SG München",
     "adress":"Richelstr 11",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":15,
     "audio":"false",
     "realtime":"true",
@@ -1234,7 +1234,7 @@
   {
     "owner":"Barbarastr. 4, BLKA",
     "adress":"Barbarastr. 4",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":17,
     "audio":"false",
     "realtime":"true",
@@ -1245,7 +1245,7 @@
   {
     "owner":"Konzernzentrale, Geschäftsleitung",
     "adress":"",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":18,
     "audio":"false",
     "realtime":"true",
@@ -1256,7 +1256,7 @@
   {
     "owner":"Hansastraße 24, PP München",
     "adress":"Hansastraße 24",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":19,
     "audio":"false",
     "realtime":"true",
@@ -1267,7 +1267,7 @@
   {
     "owner":"Landesamt für Vermessung und Geoinformation, StMF",
     "adress":"Alexandrastraße 4",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":20,
     "audio":"false",
     "realtime":"true",
@@ -1278,7 +1278,7 @@
   {
     "owner":"Residenz, Bay. Schlösserverw.",
     "adress":"Residenzstr. 1",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":27,
     "audio":"false",
     "realtime":"true",
@@ -1289,7 +1289,7 @@
   {
     "owner":"Dienstgebäude, StMI",
     "adress":"Odeonsplatz 3",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":28,
     "audio":"false",
     "realtime":"true",
@@ -1300,7 +1300,7 @@
   {
     "owner":"Maillingerstr. 15, BLKA",
     "adress":"Maillingerstr. 15",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":31,
     "audio":"false",
     "realtime":"true",
@@ -1311,7 +1311,7 @@
   {
     "owner":"Franz-J.-S.-Ring 1, Bay. Staatskanzlei",
     "adress":"Franz-Josef-Strauß-Ring 1",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":32,
     "audio":"false",
     "realtime":"true",
@@ -1322,7 +1322,7 @@
   {
     "owner":"Ettstraße 2, PP München",
     "adress":"Ettstraße 2",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":33,
     "audio":"false",
     "realtime":"true",
@@ -1333,7 +1333,7 @@
   {
     "owner":"Dienstgebäude, StMUG",
     "adress":"Rosenkavalierplatz 2",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":33,
     "audio":"false",
     "realtime":"true",
@@ -1344,7 +1344,7 @@
   {
     "owner":"Museum Brandhorst, Staatsgemäldesammlungen",
     "adress":"Theresienstraße 35a",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":43,
     "audio":"false",
     "realtime":"false",
@@ -1355,7 +1355,7 @@
   {
     "owner":"Museum, Bay. Nationalmuseum",
     "adress":"Prinzregentenstraße 3",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":57,
     "audio":"false",
     "realtime":"true",
@@ -1366,7 +1366,7 @@
   {
     "owner":"Prinzregentenstraße 3, Bayerisches Nationalmuseum",
     "adress":"Prinzregentenstraße 3",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":57,
     "audio":"false",
     "realtime":"true",
@@ -1377,7 +1377,7 @@
   {
     "owner":"Alte Pinakothek, Staatsgemäldesammlungen",
     "adress":"Barer Straße 27 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":101,
     "audio":"false",
     "realtime":"false",
@@ -1388,7 +1388,7 @@
   {
     "owner":"Pinakothek der Moderne, Staatsgemäldesammlungen",
     "adress":"Barer Straße 29 ",
-    "category":"propertySec ",
+    "category":"propertySec",
     "count":115,
     "audio":"false",
     "realtime":"false",
@@ -1399,7 +1399,7 @@
   {
     "owner":"Parkierungs-einrichtungen auf Privatgrund, P+R Park  &  Ride GmbH",
     "adress":"",
-    "category":"traffic, propertySec ",
+    "category":"traffic, propertySec",
     "count":118,
     "audio":"false",
     "realtime":"true",
