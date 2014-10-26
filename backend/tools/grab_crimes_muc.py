@@ -10,13 +10,19 @@ import os
 import base64
 import cPickle as pickle
 from geopy.distance import distance
+import argparse
+
+import logging
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
 
 
 def b64url(url):
     if not os.path.exists("html_data"):
         os.mkdir("html_data")
 
-    return os.path.normpath(os.path.join("html_data", base64.b64encode(url)[-20:] + ".html"))
+    return os.path.normpath(os.path.join("html_data",
+                                         base64.b64encode(url)[-20:] + ".html"))
 
 
 def get_soup(url, fetch=False):
@@ -28,6 +34,7 @@ def get_soup(url, fetch=False):
     """
 
     if fetch:
+        logger.debug("fetch url {}".format(url))
         response = urllib2.urlopen(url)
         html = response.read()
 
@@ -42,7 +49,7 @@ def get_soup(url, fetch=False):
             with open(b64url(url), "w") as f:
                 f.write(html)
         except IOError:
-            print "IOError"
+            logger.debug("IOError when writing opening file")
             pass
 
     return soup
@@ -91,7 +98,6 @@ def fetch_reports(fetch=False):
                            indent=4, separators=(',', ': '),
                            #encoding="utf-8", ensure_ascii=False)
                            ))
-    #print incidents
 
 crime_categories = {u"Raub": [u"raub",
                               u"räub"],
@@ -106,21 +112,22 @@ crime_categories = {u"Raub": [u"raub",
                                          "sexuell",
                                          u"sexuelle Nötigung"],
                     u"Körperverletzung": [u"körperverl",
-                                          "schlag",
+                                          u"schlag",
                                           u"schlägerei",
                                           "attackier"]}
 
 crime_excludes = ["Terminhinweis", "herzlich", "eingeladen", "Hubschrauber"]
 
+
 def extract_date(text):
     """
-    exctract first found date
+    exctract first found date in Text
     :param text:
     :return:
     """
     patn = re.compile("\d{2}.\d{2}.\d{4}")
     for match in patn.findall(text):
-        #print "found date:", match
+        #logger.debug("found date: {}".format(match))
         date = datetime.datetime.strptime(match, "%d.%m.%Y")
         return str(date.date())
 
@@ -173,9 +180,7 @@ def parse_report(title, url, incidents=None, fetch=False):
     article_headings = soup.findAll("div",
                                     {"class": "inhaltUeberschriftFolgeseiten2"})
     for head in article_headings:
-        #print head
         text_field = head.nextSibling.nextSibling
-        #print text_field
 
         head_title = head.text
         full_text = text_field.text
@@ -209,7 +214,8 @@ def parse_report(title, url, incidents=None, fetch=False):
                     or excl.lower() in full_text.lower():
                 skip_article = True
 
-                print u"Skip article, exclude ({:s}): {:s} ".format(excl, head_title)
+                logger.warning(u"Skip article, exclude ({:s}): {:s} ".format(
+                    excl, head_title))
                 break
 
         if skip_article:
@@ -232,7 +238,8 @@ def parse_report(title, url, incidents=None, fetch=False):
                                                             head_title)
 
                         if not head_title:
-                            print "ERROOOOOR no head_title", head.text
+                            logger.error("ERROOOOOR no head_title {}".format(
+                                head.text))
 
                         incident = {"title": head_title.encode("utf-8"),
                                     "time": date.encode("utf-8"),
@@ -250,9 +257,11 @@ def parse_report(title, url, incidents=None, fetch=False):
                     else:
                         skip_article = True
                         if not addr:
-                            print "Skip article no street found", head_title
+                            logger.warning("Skip article no street found: "
+                                           "{}".format(head_title))
                         if not date:
-                            print "Skip article no date found", head_title
+                            logger.warning("Skip article no date found: "
+                                           "{}".format(head_title))
 
                     break
 
@@ -266,10 +275,14 @@ def get_munich_streetnames():
     :return:
     """
 
+    logger.info("grab streetnames from {}".format(
+        "http://stadt-muenchen.net/strassen/"))
     streetnames = []
     for char in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
 
-        soup = get_soup("http://stadt-muenchen.net/strassen/index.php?name={}".format(char), fetch=True)
+        soup = get_soup(
+            "http://stadt-muenchen.net/strassen/index.php?name={}".format(char),
+            fetch=True)
         tsoup = soup.find("table", {"class": "full"})
         for row in tsoup.findAll("tr"):
             if row.find("th"):
@@ -284,27 +297,31 @@ def get_munich_streetnames():
     with open("streetnames.txt", "w") as f:
         f.write(u"\n".join(streetnames).encode("utf-8"))
 
+    logger.info("wrote streetnames to streetnames.txt")
+
     return streetnames
 
 
 def convert_min_sec_to_lat_lon(sec_lat, sec_long):
 
     def conversion(old):
+        logger.debug(u"convert coordinates {}".format(old))
         direction = {'N': 1,
                      'S': -1,
                      'E': 1,
                      'W': -1}
-        new = old.replace(u'°', ' ').replace('\'', ' ').replace('"', ' ').replace("`", "").replace(u"\u2032", "")
+        new = old.replace(u'°', ' ').replace('\'', ' ').\
+            replace('"', ' ').replace("`", "").replace(u"\u2032", "")
         new = new.split()
-        #print "new coords", new, direction
 
         if not new:
-            print "got no coordinates"
+            logger.warning("no valid coordinates")
             return 0
 
         new_dir = new.pop()
 
-        return (float(new[0])+float(new[1])/60.0+float(new[2])/3600.0) * direction[new_dir]
+        return (float(new[0]) + float(new[1])/60.0 +
+                float(new[2])/3600.0) * direction[new_dir]
 
     return conversion(sec_lat),  conversion(sec_long)
 
@@ -317,11 +334,9 @@ def translate_address(addr, fetch):
         location = geolocator.geocode(addr, timeout=10)
 
         if location is None:
-            print "Error, did not find lat,long for addr:", addr
+            logger.warning(u"Error, could not find lat, long coordinates for "
+                           u"addr: {}".format(addr))
             return 0, 0, ""
-
-        # with open("lat_lon_cache.txt", "a") as f:
-        #     f.write((addr + "\t" + str(location.latitude) + "\t" + str(location.longitude) + "\n").encode("utf-8"))
 
         lat = location.latitude
         lon = location.longitude
@@ -332,8 +347,8 @@ def translate_address(addr, fetch):
         # check if it is in munich range
         km_distance = 20
         if d > km_distance:
-            print u"Error, location {} more than {}km away from munich ({}km)".format(addr, km_distance, d)
-
+            logger.error(u"Error, location {} more than {}km away from "
+                         u"munich ({}km)".format(addr, km_distance, d))
             lat, lon = 0, 0
 
         return float(lat), float(lon), location.address
@@ -351,61 +366,43 @@ def add_cam_lat_lon():
     cam_fname = "camdataUbahnPR"
 
     with open(cam_fname, "r") as f:
-        #dat = _to_unicode(f.read())
         dat = f.read()
-
-        #data = json.loads(dat.decode("utf-8"), encoding="utf-8")
         data = json.loads(dat)
-        #data = smpljson.loads(dat)
-        #data = json.loads(dat.decode("utf-8"))
-
-        #print dat
-        #print data
-        #return
-        #data = json.loads(f.read(), encoding="utf-8")
 
     new_dat = []
     for d in data:
 
         if d["lat"] and d["lng"]:
-            #addr = d["lat"] + d["lng"]
             lat, lng = convert_min_sec_to_lat_lon(d["lat"], d["lng"])
 
             d["lat"] = lat
             d["lng"] = lng
-            #g = geopy.Nominatim()
-            # print "reverse addr:", g.reverse((lat, lng))
-            # addr = "{}, {}".format(lat, lng)
 
             if not d["adress"]:
                 if "U-Bahnhof" in d["owner"]:
-                    #print "set Ubahn adress to", d["owner"]
+                    logger.debug("set Ubahn adress to: {}".format(d["owner"]))
                     d["adress"] = d["owner"]
             new_dat.append(d)
         else:
 
-            # skip
+            # skip if no address is given
             #if not d["adress"]:
             #    continue
 
             addr = u"München " + d["adress"]
 
-            #print d
             try:
-                #print d["adress"]
                 lat, lng, address = translate_address(addr, True)
                 d["lat"] = lat
                 d["lng"] = lng
 
                 if not d["adress"]:
-                    print "no address but owner:", d
+                    logger.warning("no address but owner: {}".format(d))
                 new_dat.append(d)
             except AttributeError:
-                print "Error:", d
+                logger.error("Error: {}".format(d))
 
-    #print data
-
-    with open("lat_lng_" + cam_fname, "w") as f:
+    with open("cameradata.json", "w") as f:
         f.write(json.dumps(new_dat, sort_keys=True,
                            indent=4, separators=(',', ': ')))
 
@@ -420,14 +417,24 @@ def pickle_to_json(fname):
         ))
 
 
-
 if __name__ == '__main__':
 
-    #pickle_to_json("incidents.jsonpickle")
-    #get_munich_streetnames()
-    #fetch_reports(fetch=True)
-    add_cam_lat_lon()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("mode", default="reports", choices=["reports",
+                                                            "streets",
+                                                            "convert_cams"])
 
-# TODO dump htmls only once to work offline
+    args = parser.parse_args()
+
+    logger.addHandler(logging.StreamHandler())
+
+    if args.mode == "streets":
+        get_munich_streetnames()
+    elif args.mode == "reports":
+        fetch_reports(fetch=True)
+    elif "convert_cams":
+        add_cam_lat_lon()
+
+
 # TODO fix "Grund
 #    -> removed due to wrong data
