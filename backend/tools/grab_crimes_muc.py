@@ -9,7 +9,6 @@ import geopy
 import os
 import base64
 import cPickle as pickle
-
 from geopy.distance import distance
 
 
@@ -288,11 +287,32 @@ def get_munich_streetnames():
     return streetnames
 
 
+def convert_min_sec_to_lat_lon(sec_lat, sec_long):
+
+    def conversion(old):
+        direction = {'N': 1,
+                     'S': -1,
+                     'E': 1,
+                     'W': -1}
+        new = old.replace(u'°', ' ').replace('\'', ' ').replace('"', ' ').replace("`", "").replace(u"\u2032", "")
+        new = new.split()
+        #print "new coords", new, direction
+
+        if not new:
+            print "got no coordinates"
+            return 0
+
+        new_dir = new.pop()
+
+        return (float(new[0])+float(new[1])/60.0+float(new[2])/3600.0) * direction[new_dir]
+
+    return conversion(sec_lat),  conversion(sec_long)
+
+
 def translate_address(addr, fetch):
 
     if fetch:
         geolocator = geopy.Nominatim()
-        #geolocator = geopy.GoogleV3()
         #geolocator = geopy.GoogleV3()
         location = geolocator.geocode(addr, timeout=10)
 
@@ -328,26 +348,7 @@ def translate_address(addr, fetch):
 def add_cam_lat_lon():
 
     #cam_fname = "cameradata.json"
-    cam_fname = "camdataUbahn"
-
-    def _to_unicode(str, verbose=False):
-        '''attempt to fix non uft-8 string into utf-8, using a limited set of encodings'''
-        # fuller list of encodings at http://docs.python.org/library/codecs.html#standard-encodings
-        if not str:  return u''
-        u = None
-        # we could add more encodings here, as warranted.
-        encodings = ('ascii', 'utf8', 'latin1')
-        for enc in encodings:
-            if u:  break
-            try:
-                u = unicode(str,enc)
-            except UnicodeDecodeError:
-                if verbose: print "error for %s into encoding %s" % (str, enc)
-                pass
-        if not u:
-            u = unicode(str, errors='replace')
-            if verbose: print "using replacement character for %s" % str
-        return u
+    cam_fname = "camdataUbahnPR"
 
     with open(cam_fname, "r") as f:
         #dat = _to_unicode(f.read())
@@ -367,24 +368,39 @@ def add_cam_lat_lon():
     for d in data:
 
         if d["lat"] and d["lng"]:
-            addr = d["lat"] + d["lng"]
+            #addr = d["lat"] + d["lng"]
+            lat, lng = convert_min_sec_to_lat_lon(d["lat"], d["lng"])
 
-        else:
-            addr = u"München " + d["adress"]
-
-        #print d
-        try:
-            #print d["adress"]
-            lat, lng, address = translate_address(addr, True)
             d["lat"] = lat
             d["lng"] = lng
+            #g = geopy.Nominatim()
+            # print "reverse addr:", g.reverse((lat, lng))
+            # addr = "{}, {}".format(lat, lng)
 
             if not d["adress"]:
-                print "set address", address
-                d["adress"] = address
+                if "U-Bahnhof" in d["owner"]:
+                    #print "set Ubahn adress to", d["owner"]
+                    d["adress"] = d["owner"]
             new_dat.append(d)
-        except AttributeError:
-            print "Error:", d
+        else:
+
+            if not d["adress"]:
+                continue
+
+            addr = u"München " + d["adress"]
+
+            #print d
+            try:
+                #print d["adress"]
+                lat, lng, address = translate_address(addr, True)
+                d["lat"] = lat
+                d["lng"] = lng
+
+                if not d["adress"]:
+                    print "no address but owner:", d
+                new_dat.append(d)
+            except AttributeError:
+                print "Error:", d
 
     #print data
 
@@ -408,8 +424,8 @@ if __name__ == '__main__':
 
     #pickle_to_json("incidents.jsonpickle")
     #get_munich_streetnames()
-    fetch_reports(fetch=True)
-    #add_cam_lat_lon()
+    #fetch_reports(fetch=True)
+    add_cam_lat_lon()
 
 # TODO dump htmls only once to work offline
 # TODO fix "Grund
