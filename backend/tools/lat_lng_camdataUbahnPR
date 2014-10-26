@@ -276,6 +276,18 @@
         "realtime": "true"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "B\u00fcror\u00e4ume, Gesch\u00e4ftsleitung",
+        "realtime": "false"
+    },
+    {
         "adress": "Marienplatz",
         "audio": "false",
         "category": "publicSecurity",
@@ -300,6 +312,18 @@
         "realtime": "true"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "countPublic": 2,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Dienstgeb\u00e4ude VPI FFB, Polizei",
+        "realtime": "true"
+    },
+    {
         "adress": "Mariahilfplatz 17 ",
         "audio": "false",
         "category": "propertySec",
@@ -321,6 +345,18 @@
         "lng": 11.5549384,
         "objectRecognition": "false",
         "owner": "Dienstgeb\u00e4ude, LfU",
+        "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "countPublic": 2,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Dienstgeb\u00e4ude, Polizei",
         "realtime": "true"
     },
     {
@@ -468,6 +504,18 @@
         "realtime": "true"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 1,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Fitnesscenter, Gesch\u00e4ftsleitung",
+        "realtime": "false"
+    },
+    {
         "adress": "Franz-Josef-Strau\u00df-Ring 1",
         "audio": "false",
         "category": "propertySec",
@@ -516,6 +564,42 @@
         "realtime": "false"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "countPublic": 1,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Gastst\u00e4tte, Gesch\u00e4ftsleitung",
+        "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 1,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Gastst\u00e4tte, Gesch\u00e4ftsleitung",
+        "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Gastst\u00e4tte, Gesch\u00e4ftsleitung",
+        "realtime": "true"
+    },
+    {
         "adress": "Gollierstra\u00dfe 70 ",
         "audio": "false",
         "category": "propertySec",
@@ -562,6 +646,18 @@
         "objectRecognition": "false",
         "owner": "Hackerbr\u00fccke, DB Station & Service AG",
         "realtime": "false"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Handelsunternehmen, Vorstand",
+        "realtime": "true"
     },
     {
         "adress": "Hansastra\u00dfe 24",
@@ -936,6 +1032,18 @@
         "realtime": "true"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 18,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Konzernzentrale, Gesch\u00e4ftsleitung",
+        "realtime": "true"
+    },
+    {
         "adress": "Landsbergerstr. 300",
         "audio": "false",
         "category": "publicSecurity",
@@ -969,6 +1077,18 @@
         "lng": 11.5372444,
         "objectRecognition": "false",
         "owner": "Landshuter Allee 38, PP M\u00fcnchen",
+        "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 1,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Lebensmittelhandel, Gesch\u00e4ftsleitung",
         "realtime": "true"
     },
     {
@@ -1212,6 +1332,54 @@
         "realtime": "true"
     },
     {
+        "adress": "",
+        "audio": "false",
+        "category": "",
+        "count": 941,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "\u00d6PNV-Fahrzeuge Bus, Stadtwerke M\u00fcnchen GmbH",
+        "realtime": "false"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "",
+        "count": 308,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "\u00d6PNV-Fahrzeuge Tram, Stadtwerke M\u00fcnchen GmbH",
+        "realtime": "false"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "",
+        "count": 400,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "\u00d6PNV-Fahrzeuge U-Bahn, Stadtwerke M\u00fcnchen GmbH",
+        "realtime": "false"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "traffic, propertySec, other",
+        "count": 1266,
+        "countPublic": 86,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "\u00d6PNV-Infrastruktur, Stadtwerke M\u00fcnchen GmbH",
+        "realtime": "true"
+    },
+    {
         "adress": "Orleansstr. 34",
         "audio": "false",
         "category": "propertySec",
@@ -1281,6 +1449,18 @@
         "lng": 11.6984336,
         "objectRecognition": "false",
         "owner": "Parkhaus Nord, Messe M\u00fcnchen",
+        "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "traffic, propertySec",
+        "count": 118,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Parkierungseinrichtungen auf Privatgrund, P+R Park  &  Ride GmbH",
         "realtime": "true"
     },
     {
@@ -1509,6 +1689,42 @@
         "lng": 11.5774407,
         "objectRecognition": "false",
         "owner": "StMF, StMF",
+        "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 2,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Taxizentrale, Gesch\u00e4ftsleitung",
+        "realtime": "false"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 4,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Technikhandel, Gesch\u00e4ftsleitung",
+        "realtime": "true"
+    },
+    {
+        "adress": "",
+        "audio": "false",
+        "category": "propertySec",
+        "count": 1,
+        "countPublic": null,
+        "lat": 48.1372719,
+        "lng": 11.5754815,
+        "objectRecognition": "false",
+        "owner": "Technikmarkt, Gesch\u00e4ftsleitung",
         "realtime": "true"
     },
     {

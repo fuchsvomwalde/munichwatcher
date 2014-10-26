@@ -384,8 +384,9 @@ def add_cam_lat_lon():
             new_dat.append(d)
         else:
 
-            if not d["adress"]:
-                continue
+            # skip
+            #if not d["adress"]:
+            #    continue
 
             addr = u"München " + d["adress"]
 
