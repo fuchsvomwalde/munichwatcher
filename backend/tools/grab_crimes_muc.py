@@ -9,6 +9,8 @@ import geopy
 import os
 import base64
 
+from geopy.distance import distance
+
 
 def b64url(url):
     if not os.path.exists("html_data"):
@@ -133,16 +135,8 @@ def extract_address(text, title):
             addr = title.split("in")[-1]
 
     if addr:
-        lat, lon = translate_address(addr + u" München", True)
+        lat, lon, address = translate_address(addr + u" München", True)
     else:
-        lat, lon = 0, 0
-
-    # check if it i in munich range
-    max_coord = (48.3898186, 11.7164825)  # freising rechts oben
-    min_coords = (47.9200185, 11.1782943)  # PÄHL, LINKS UNTEN
-
-    if not (max_coord[0] > lat > min_coords[0]) or not (max_coord[1] > lon > min_coords [1]):
-        print "Error coordinates out of range:", addr
         lat, lon = 0, 0
 
     return lat, lon, addr
@@ -263,18 +257,29 @@ def get_munich_streetnames():
 def translate_address(addr, fetch):
 
     if fetch:
-        geolocator = geopy.Nominatim()
-        #geolocator = geopy.GoogleV3()
-        location = geolocator.geocode(addr)
+        #geolocator = geopy.Nominatim()
+        geolocator = geopy.GoogleV3()
+        location = geolocator.geocode(addr, timeout=10)
 
         if location is None:
             print "Error, did not find lat,long for addr:", addr
-            return 0, 0
+            return 0, 0, ""
 
-        with open("lat_lon_cache.txt", "a") as f:
-            f.write((addr + "\t" + str(location.latitude) + "\t" + str(location.longitude) + "\n").encode("utf-8"))
+        # with open("lat_lon_cache.txt", "a") as f:
+        #     f.write((addr + "\t" + str(location.latitude) + "\t" + str(location.longitude) + "\n").encode("utf-8"))
 
-        return float(location.latitude), float(location.longitude)
+        lat = location.latitude
+        lon = location.longitude
+
+        munich = 48.1372719, 11.5754815
+        d = distance(munich, (lat, lon)).kilometers
+
+        if d > 20:
+            print "Error, location more than 10km away from munich", addr
+            # check if it i in munich range
+            lat, lon = 0, 0
+
+        return float(lat), float(lon), location.address
     else:
         with open("lat_lon_cache.txt", "r") as f:
 
@@ -324,18 +329,35 @@ def add_cam_lat_lon():
     for d in data:
 
         if d["lat"] and d["lng"]:
-            print "Ubahn? skip addr", d
-            new_dat.append(d)
+            addr = d["lat"] + d["lng"]
+
+            # def conversion(old):
+            #     direction = {'N':-1, 'S':1, 'E': -1, 'W':1}
+            #     new = old.replace(u'°',' ').replace('\'',' ').replace('"',' ')
+            #     new = new.split()
+            #     new_dir = new.pop()
+            #     new.extend([0,0,0])
+            #     return (float(new[0])+float(new[1])/60.0+float(new[2])/3600.0) * direction[new_dir]
+            #
+            # lat, lon = u'''0°25'30"S, 91°7'W'''.split(', ')
+            # addr = str(conversion(lat)) + " " +  str(conversion(lon))
+
         else:
-            #print d
-            try:
-                #print d["adress"]
-                lat, lng = translate_address(d["adress"], True)
-                d["lat"] = lat
-                d["lng"] = lng
-                new_dat.append(d)
-            except AttributeError:
-                print "Error:", d
+            addr = d["adress"] + u" München"
+
+        #print d
+        try:
+            #print d["adress"]
+            lat, lng, address = translate_address(addr, True)
+            d["lat"] = lat
+            d["lng"] = lng
+
+            if not d["adress"]:
+                print "set address", address
+                d["adress"] = address
+            new_dat.append(d)
+        except AttributeError:
+            print "Error:", d
 
     #print data
 
