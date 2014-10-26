@@ -8,6 +8,7 @@ import json
 import geopy
 import os
 import base64
+import cPickle as pickle
 
 from geopy.distance import distance
 
@@ -20,6 +21,12 @@ def b64url(url):
 
 
 def get_soup(url, fetch=False):
+    """
+    get the beautiful soup from an URL
+    :param url:
+    :param fetch:
+    :return:
+    """
 
     if fetch:
         response = urllib2.urlopen(url)
@@ -51,15 +58,11 @@ def parse_summary(url, incidents, fetch=False):
 
     soup = get_soup(url, fetch)
 
-    #print parsed_html.findAll("h1", {"class":"inhaltUeberschriftFolgenderAbschnitt"})[0].contents[0]
-    detail_links = [(l.get("title"), l.get("href")) for l in soup.findAll("a", {"class": "inhaltDetaillink"})]
-
+    detail_links = [(l.get("title"), l.get("href"))
+                    for l in soup.findAll("a", {"class": "inhaltDetaillink"})]
 
     for l in detail_links:
-        #print l[0]
         parse_report(*l, incidents=incidents, fetch=fetch)
-        # url = l[1]
-
 
 json_fname = "incidents.json"
 
@@ -82,15 +85,31 @@ def fetch_reports(fetch=False):
         url = m_search_tmpl.format(i*10)
         parse_summary(url, incidents, fetch)
 
+    pickle.dump( incidents, open(json_fname + "pickle", "wb"))
+
     with open(json_fname, "w") as f:
         f.write(json.dumps(incidents, sort_keys=True,
-                           indent=4, separators=(',', ': '), encoding="utf-8", ensure_ascii=False))
+                           indent=4, separators=(',', ': '),
+                           #encoding="utf-8", ensure_ascii=False)
+                           ))
     #print incidents
 
-crime_categories = {u"Raub": [u"raub", u"räub"],
-                    u"Diebstahl": ["Dieb", "Diebin", "Eigentumsdelikt", "einbruch", "einbrech", "stiehl", "stehl"],
-                    u"Sexuelle Gewalt": ["vergewalt", "sexuell", u"sexuelle Nötigung"],
-                    u"Körperverletzung": [u"körperverl", "schlag", u"schlägerei", "attackier"]}
+crime_categories = {u"Raub": [u"raub",
+                              u"räub"],
+                    u"Diebstahl": ["Dieb",
+                                   "Diebin",
+                                   "Eigentumsdelikt",
+                                   "einbruch",
+                                   "einbrech",
+                                   "stiehl",
+                                   "stehl"],
+                    u"Sexuelle Gewalt": ["vergewalt",
+                                         "sexuell",
+                                         u"sexuelle Nötigung"],
+                    u"Körperverletzung": [u"körperverl",
+                                          "schlag",
+                                          u"schlägerei",
+                                          "attackier"]}
 
 crime_excludes = ["Terminhinweis", "herzlich", "eingeladen", "Hubschrauber"]
 
@@ -118,14 +137,18 @@ def extract_address(text, title):
     streets = []
 
     addr = None
+
+    # load munich streetnames
     with open("streetnames.txt", "r") as f:
         for street in f:
             streets.append(street.decode("utf-8").strip())
+
+    # check if one of the streetnames of munich is found in the text
     for street in streets:
         if street.replace(u"aße", "") in text:
             addr = street
 
-    # no street found, try to get stadtteil
+    # no streetname found, try to get the district out of the title
     if not addr:
         if u"\u2013" in title:
             addr = title.split(u"\u2013")[-1]
@@ -135,7 +158,7 @@ def extract_address(text, title):
             addr = title.split("in")[-1]
 
     if addr:
-        lat, lon, address = translate_address(addr + u" München", True)
+        lat, lon, address = translate_address(u"München " + addr, True)
     else:
         lat, lon = 0, 0
 
@@ -143,7 +166,6 @@ def extract_address(text, title):
 
 
 def parse_report(title, url, incidents=None, fetch=False):
-    #print "parsing report:", title
     soup = get_soup("http://www.polizei.bayern.de/" + url, fetch)
 
     if incidents is None:
@@ -157,15 +179,22 @@ def parse_report(title, url, incidents=None, fetch=False):
         #print text_field
 
         head_title = head.text
-        text_text = text_field.text
+        full_text = text_field.text
 
         # clean up title
-
         try:
             head_title = head_title.split("\t", 1)[1]
         except IndexError:
             pass
 
+        # remove leading 1234.
+        try:
+            int(head_title.split(".", 1)[0])
+            head_title = head_title.split(".", 1)[1]
+        except ValueError:
+            pass
+
+        # remove leading 1234:
         try:
             int(head_title.split(".", 1)[0])
             head_title = head_title.split(".", 1)[1]
@@ -177,26 +206,31 @@ def parse_report(title, url, incidents=None, fetch=False):
         skip_article = False
 
         for excl in crime_excludes:
-            if excl.lower() in head_title.lower() or excl.lower() in text_text.lower():
+            if excl.lower() in head_title.lower() \
+                    or excl.lower() in full_text.lower():
                 skip_article = True
+
+                print u"Skip article, exclude ({:s}): {:s} ".format(excl, head_title)
                 break
 
         if skip_article:
-            print "Skip article, exclude: ", head_title
             continue
 
+        # go through all crime categories
         for cat, values in crime_categories.items():
 
-            # check for all values of a category
             for search_val in values:
 
-                if search_val in head_title.lower() or search_val in text_text.lower():
-                    date = extract_date(text_text)
-                    lat, lon, addr = extract_address(text_text, head_title)
+                # check if one value of a category is in text or heading
+                if search_val in head_title.lower() \
+                        or search_val in full_text.lower():
+                    date = extract_date(full_text)
+                    lat, lon, addr = extract_address(full_text, head_title)
 
                     if lat and lon and date:
 
-                        outstr = u"{}\t{}\t{}\t{}\n".format(cat, date, addr, head_title)
+                        outstr = u"{}\t{}\t{}\t{}\n".format(cat, date, addr,
+                                                            head_title)
 
                         if not head_title:
                             print "ERROOOOOR no head_title", head.text
@@ -205,24 +239,21 @@ def parse_report(title, url, incidents=None, fetch=False):
                                     "time": date.encode("utf-8"),
                                     "type": cat.encode("utf-8"),
                                     "lat": lat,
-                                    "lng": lon}
+                                    "lng": lon,
+                                    "adress": addr,
+                                    "full_text": full_text}
 
                         with open("crimes.txt", "a") as f:
                             f.write(outstr.encode("utf-8"))
-
-#                        print u"Kategorie: {} - Date: {}, Street: {}  {}".format(cat, date, street, head_title)
-#                        print
 
                         incidents.append(incident)
 
                     else:
                         skip_article = True
                         if not addr:
-                            print "Skip article no street", head_title
+                            print "Skip article no street found", head_title
                         if not date:
-                            print "Skip article no date", head_title
-                        # if not lat or not lon:
-                        #     print "lat lon out of range"
+                            print "Skip article no date found", head_title
 
                     break
 
@@ -231,6 +262,11 @@ def parse_report(title, url, incidents=None, fetch=False):
 
 
 def get_munich_streetnames():
+    """
+    get a list with all munich streetnames
+    :return:
+    """
+
     streetnames = []
     for char in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
 
@@ -246,8 +282,6 @@ def get_munich_streetnames():
             if street not in ["Grund"]:
                 streetnames.append(street)
 
-            #translate_address(street, fetch=True)
-
     with open("streetnames.txt", "w") as f:
         f.write(u"\n".join(streetnames).encode("utf-8"))
 
@@ -257,8 +291,9 @@ def get_munich_streetnames():
 def translate_address(addr, fetch):
 
     if fetch:
-        #geolocator = geopy.Nominatim()
-        geolocator = geopy.GoogleV3()
+        geolocator = geopy.Nominatim()
+        #geolocator = geopy.GoogleV3()
+        #geolocator = geopy.GoogleV3()
         location = geolocator.geocode(addr, timeout=10)
 
         if location is None:
@@ -274,9 +309,11 @@ def translate_address(addr, fetch):
         munich = 48.1372719, 11.5754815
         d = distance(munich, (lat, lon)).kilometers
 
-        if d > 20:
-            print "Error, location more than 10km away from munich", addr
-            # check if it i in munich range
+        # check if it is in munich range
+        km_distance = 20
+        if d > km_distance:
+            print u"Error, location {} more than {}km away from munich ({}km)".format(addr, km_distance, d)
+
             lat, lon = 0, 0
 
         return float(lat), float(lon), location.address
@@ -313,7 +350,8 @@ def add_cam_lat_lon():
         return u
 
     with open(cam_fname, "r") as f:
-        dat = _to_unicode(f.read())
+        #dat = _to_unicode(f.read())
+        dat = f.read()
 
         #data = json.loads(dat.decode("utf-8"), encoding="utf-8")
         data = json.loads(dat)
@@ -331,19 +369,8 @@ def add_cam_lat_lon():
         if d["lat"] and d["lng"]:
             addr = d["lat"] + d["lng"]
 
-            # def conversion(old):
-            #     direction = {'N':-1, 'S':1, 'E': -1, 'W':1}
-            #     new = old.replace(u'°',' ').replace('\'',' ').replace('"',' ')
-            #     new = new.split()
-            #     new_dir = new.pop()
-            #     new.extend([0,0,0])
-            #     return (float(new[0])+float(new[1])/60.0+float(new[2])/3600.0) * direction[new_dir]
-            #
-            # lat, lon = u'''0°25'30"S, 91°7'W'''.split(', ')
-            # addr = str(conversion(lat)) + " " +  str(conversion(lon))
-
         else:
-            addr = d["adress"] + u" München"
+            addr = u"München " + d["adress"]
 
         #print d
         try:
@@ -365,16 +392,25 @@ def add_cam_lat_lon():
         f.write(json.dumps(new_dat, sort_keys=True,
                            indent=4, separators=(',', ': ')))
 
-        # f.write(json.dumps(new_dat, sort_keys=True,
-        #                    indent=4, separators=(',', ': '), encoding="utf-8", ensure_ascii=False))
+
+def pickle_to_json(fname):
+    incidents = pickle.load(open(fname, "rb"))
+
+    with open(json_fname, "w") as f:
+        f.write(json.dumps(incidents, sort_keys=True,
+                           indent=4, separators=(',', ': '),
+                           #encoding="utf-8", ensure_ascii=False
+        ))
+
 
 
 if __name__ == '__main__':
+
+    #pickle_to_json("incidents.jsonpickle")
     #get_munich_streetnames()
-    #fetch_reports(fetch=False)
-    add_cam_lat_lon()
+    fetch_reports(fetch=True)
+    #add_cam_lat_lon()
 
 # TODO dump htmls only once to work offline
 # TODO fix "Grund
-# TODO Fix incident categories
-# TODO lat lon im Umland
+#    -> removed due to wrong data
